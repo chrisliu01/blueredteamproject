@@ -1,0 +1,905 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'i', '-g', 'truffle' ]
+2 info using npm@6.14.4
+3 info using node@v10.19.0
+4 verbose npm-session 46caefa94fc04484
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/truffle 817ms
+8 http fetch GET 200 https://registry.npmjs.org/truffle/-/truffle-5.1.33.tgz 8258ms
+9 silly pacote tag manifest for truffle@latest fetched in 9367ms
+10 timing stage:loadCurrentTree Completed in 9419ms
+11 silly install loadIdealTree
+12 silly install cloneCurrentTreeToIdealTree
+13 timing stage:loadIdealTree:cloneCurrentTree Completed in 1ms
+14 silly install loadShrinkwrap
+15 timing stage:loadIdealTree:loadShrinkwrap Completed in 4ms
+16 silly install loadAllDepsIntoIdealTree
+17 silly resolveWithNewModule truffle@5.1.33 checking installable status
+18 http fetch GET 200 https://registry.npmjs.org/app-module-path 130ms
+19 http fetch GET 200 https://registry.npmjs.org/app-module-path/-/app-module-path-2.2.0.tgz 152ms
+20 silly pacote range manifest for app-module-path@^2.2.0 fetched in 353ms
+21 silly resolveWithNewModule app-module-path@2.2.0 checking installable status
+22 http fetch GET 200 https://registry.npmjs.org/original-require 358ms
+23 http fetch GET 200 https://registry.npmjs.org/mocha 372ms
+24 http fetch GET 200 https://registry.npmjs.org/original-require/-/original-require-1.0.1.tgz 76ms
+25 silly pacote version manifest for original-require@1.0.1 fetched in 688ms
+26 silly resolveWithNewModule original-require@1.0.1 checking installable status
+27 http fetch GET 200 https://registry.npmjs.org/mocha/-/mocha-5.2.0.tgz 454ms
+28 silly pacote version manifest for mocha@5.2.0 fetched in 855ms
+29 silly resolveWithNewModule mocha@5.2.0 checking installable status
+30 http fetch GET 200 https://registry.npmjs.org/browser-stdout 150ms
+31 http fetch GET 200 https://registry.npmjs.org/commander 166ms
+32 http fetch GET 200 https://registry.npmjs.org/debug 183ms
+33 http fetch GET 200 https://registry.npmjs.org/browser-stdout/-/browser-stdout-1.3.1.tgz 76ms
+34 silly pacote version manifest for browser-stdout@1.3.1 fetched in 321ms
+35 silly resolveWithNewModule browser-stdout@1.3.1 checking installable status
+36 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-3.1.0.tgz 199ms
+37 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp 394ms
+38 http fetch GET 200 https://registry.npmjs.org/commander/-/commander-2.15.1.tgz 224ms
+39 http fetch GET 200 https://registry.npmjs.org/diff 404ms
+40 http fetch GET 200 https://registry.npmjs.org/glob 776ms
+41 http fetch GET 200 https://registry.npmjs.org/growl 787ms
+42 silly pacote version manifest for debug@3.1.0 fetched in 838ms
+43 silly resolveWithNewModule debug@3.1.0 checking installable status
+44 silly pacote version manifest for commander@2.15.1 fetched in 865ms
+45 silly resolveWithNewModule commander@2.15.1 checking installable status
+46 http fetch GET 200 https://registry.npmjs.org/minimatch 862ms
+47 http fetch GET 200 https://registry.npmjs.org/supports-color 531ms
+48 http fetch GET 200 https://registry.npmjs.org/mkdirp 946ms
+49 http fetch GET 200 https://registry.npmjs.org/he 950ms
+50 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz 564ms
+51 http fetch GET 200 https://registry.npmjs.org/diff/-/diff-3.5.0.tgz 567ms
+52 http fetch GET 200 https://registry.npmjs.org/glob/-/glob-7.1.2.tgz 342ms
+53 http fetch GET 200 https://registry.npmjs.org/growl/-/growl-1.10.5.tgz 320ms
+54 silly pacote version manifest for escape-string-regexp@1.0.5 fetched in 1133ms
+55 silly resolveWithNewModule escape-string-regexp@1.0.5 checking installable status
+56 http fetch GET 200 https://registry.npmjs.org/supports-color/-/supports-color-5.4.0.tgz 239ms
+57 silly pacote version manifest for diff@3.5.0 fetched in 1183ms
+58 silly resolveWithNewModule diff@3.5.0 checking installable status
+59 http fetch GET 200 https://registry.npmjs.org/minimatch/-/minimatch-3.0.4.tgz 245ms
+60 http fetch GET 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz 218ms
+61 silly pacote version manifest for glob@7.1.2 fetched in 1192ms
+62 silly resolveWithNewModule glob@7.1.2 checking installable status
+63 silly pacote version manifest for growl@1.10.5 fetched in 1193ms
+64 silly resolveWithNewModule growl@1.10.5 checking installable status
+65 http fetch GET 200 https://registry.npmjs.org/he/-/he-1.1.1.tgz 227ms
+66 silly pacote version manifest for supports-color@5.4.0 fetched in 876ms
+67 silly resolveWithNewModule supports-color@5.4.0 checking installable status
+68 silly pacote version manifest for minimatch@3.0.4 fetched in 1210ms
+69 silly resolveWithNewModule minimatch@3.0.4 checking installable status
+70 silly pacote version manifest for mkdirp@0.5.1 fetched in 1211ms
+71 warn deprecated mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+72 silly resolveWithNewModule mkdirp@0.5.1 checking installable status
+73 silly pacote version manifest for he@1.1.1 fetched in 1221ms
+74 silly resolveWithNewModule he@1.1.1 checking installable status
+75 http fetch GET 200 https://registry.npmjs.org/ms 65ms
+76 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.0.0.tgz 61ms
+77 silly pacote version manifest for ms@2.0.0 fetched in 136ms
+78 silly resolveWithNewModule ms@2.0.0 checking installable status
+79 http fetch GET 200 https://registry.npmjs.org/inherits 114ms
+80 http fetch GET 200 https://registry.npmjs.org/fs.realpath 131ms
+81 http fetch GET 200 https://registry.npmjs.org/path-is-absolute 126ms
+82 http fetch GET 200 https://registry.npmjs.org/inflight 130ms
+83 http fetch GET 200 https://registry.npmjs.org/once 134ms
+84 http fetch GET 200 https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz 106ms
+85 http fetch GET 200 https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz 126ms
+86 http fetch GET 200 https://registry.npmjs.org/once/-/once-1.4.0.tgz 105ms
+87 http fetch GET 200 https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz 129ms
+88 http fetch GET 200 https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz 123ms
+89 silly pacote range manifest for inflight@^1.0.4 fetched in 289ms
+90 silly resolveWithNewModule inflight@1.0.6 checking installable status
+91 silly pacote range manifest for inherits@2 fetched in 274ms
+92 silly resolveWithNewModule inherits@2.0.4 checking installable status
+93 silly pacote range manifest for once@^1.3.0 fetched in 278ms
+94 silly resolveWithNewModule once@1.4.0 checking installable status
+95 silly pacote range manifest for fs.realpath@^1.0.0 fetched in 298ms
+96 silly resolveWithNewModule fs.realpath@1.0.0 checking installable status
+97 silly pacote range manifest for path-is-absolute@^1.0.0 fetched in 282ms
+98 silly resolveWithNewModule path-is-absolute@1.0.1 checking installable status
+99 http fetch GET 200 https://registry.npmjs.org/wrappy 116ms
+100 http fetch GET 200 https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz 72ms
+101 silly pacote range manifest for wrappy@1 fetched in 208ms
+102 silly resolveWithNewModule wrappy@1.0.2 checking installable status
+103 http fetch GET 200 https://registry.npmjs.org/brace-expansion 88ms
+104 http fetch GET 200 https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz 83ms
+105 silly pacote range manifest for brace-expansion@^1.1.7 fetched in 180ms
+106 silly resolveWithNewModule brace-expansion@1.1.11 checking installable status
+107 http fetch GET 200 https://registry.npmjs.org/concat-map 120ms
+108 http fetch GET 200 https://registry.npmjs.org/balanced-match 129ms
+109 http fetch GET 200 https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz 74ms
+110 http fetch GET 200 https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.0.tgz 75ms
+111 silly pacote version manifest for concat-map@0.0.1 fetched in 216ms
+112 silly resolveWithNewModule concat-map@0.0.1 checking installable status
+113 silly pacote range manifest for balanced-match@^1.0.0 fetched in 221ms
+114 silly resolveWithNewModule balanced-match@1.0.0 checking installable status
+115 http fetch GET 200 https://registry.npmjs.org/minimist 94ms
+116 http fetch GET 200 https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz 65ms
+117 silly pacote version manifest for minimist@0.0.8 fetched in 168ms
+118 silly resolveWithNewModule minimist@0.0.8 checking installable status
+119 http fetch GET 200 https://registry.npmjs.org/has-flag 85ms
+120 http fetch GET 200 https://registry.npmjs.org/has-flag/-/has-flag-3.0.0.tgz 74ms
+121 silly pacote range manifest for has-flag@^3.0.0 fetched in 174ms
+122 silly resolveWithNewModule has-flag@3.0.0 checking installable status
+123 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 3786ms
+124 timing stage:loadIdealTree Completed in 3814ms
+125 silly currentTree lib
+126 silly idealTree lib
+126 silly idealTree `-- truffle@5.1.33
+126 silly idealTree   +-- app-module-path@2.2.0
+126 silly idealTree   +-- balanced-match@1.0.0
+126 silly idealTree   +-- brace-expansion@1.1.11
+126 silly idealTree   +-- browser-stdout@1.3.1
+126 silly idealTree   +-- commander@2.15.1
+126 silly idealTree   +-- concat-map@0.0.1
+126 silly idealTree   +-- debug@3.1.0
+126 silly idealTree   +-- diff@3.5.0
+126 silly idealTree   +-- escape-string-regexp@1.0.5
+126 silly idealTree   +-- fs.realpath@1.0.0
+126 silly idealTree   +-- glob@7.1.2
+126 silly idealTree   +-- growl@1.10.5
+126 silly idealTree   +-- has-flag@3.0.0
+126 silly idealTree   +-- he@1.1.1
+126 silly idealTree   +-- inflight@1.0.6
+126 silly idealTree   +-- inherits@2.0.4
+126 silly idealTree   +-- minimatch@3.0.4
+126 silly idealTree   +-- minimist@0.0.8
+126 silly idealTree   +-- mkdirp@0.5.1
+126 silly idealTree   +-- mocha@5.2.0
+126 silly idealTree   +-- ms@2.0.0
+126 silly idealTree   +-- once@1.4.0
+126 silly idealTree   +-- original-require@1.0.1
+126 silly idealTree   +-- path-is-absolute@1.0.1
+126 silly idealTree   +-- supports-color@5.4.0
+126 silly idealTree   `-- wrappy@1.0.2
+127 silly install generateActionsToTake
+128 timing stage:generateActionsToTake Completed in 26ms
+129 silly diffTrees action count 27
+130 silly diffTrees add balanced-match@1.0.0
+131 silly diffTrees add browser-stdout@1.3.1
+132 silly diffTrees add commander@2.15.1
+133 silly diffTrees add concat-map@0.0.1
+134 silly diffTrees add brace-expansion@1.1.11
+135 silly diffTrees add diff@3.5.0
+136 silly diffTrees add escape-string-regexp@1.0.5
+137 silly diffTrees add fs.realpath@1.0.0
+138 silly diffTrees add growl@1.10.5
+139 silly diffTrees add has-flag@3.0.0
+140 silly diffTrees add he@1.1.1
+141 silly diffTrees add inherits@2.0.4
+142 silly diffTrees add minimatch@3.0.4
+143 silly diffTrees add minimist@0.0.8
+144 silly diffTrees add mkdirp@0.5.1
+145 silly diffTrees add ms@2.0.0
+146 silly diffTrees add debug@3.1.0
+147 silly diffTrees add path-is-absolute@1.0.1
+148 silly diffTrees add supports-color@5.4.0
+149 silly diffTrees add wrappy@1.0.2
+150 silly diffTrees add once@1.4.0
+151 silly diffTrees add inflight@1.0.6
+152 silly diffTrees add glob@7.1.2
+153 silly diffTrees add app-module-path@2.2.0
+154 silly diffTrees add mocha@5.2.0
+155 silly diffTrees add original-require@1.0.1
+156 silly diffTrees add truffle@5.1.33
+157 silly decomposeActions action count 216
+158 silly decomposeActions fetch balanced-match@1.0.0
+159 silly decomposeActions extract balanced-match@1.0.0
+160 silly decomposeActions preinstall balanced-match@1.0.0
+161 silly decomposeActions build balanced-match@1.0.0
+162 silly decomposeActions install balanced-match@1.0.0
+163 silly decomposeActions postinstall balanced-match@1.0.0
+164 silly decomposeActions finalize balanced-match@1.0.0
+165 silly decomposeActions refresh-package-json balanced-match@1.0.0
+166 silly decomposeActions fetch browser-stdout@1.3.1
+167 silly decomposeActions extract browser-stdout@1.3.1
+168 silly decomposeActions preinstall browser-stdout@1.3.1
+169 silly decomposeActions build browser-stdout@1.3.1
+170 silly decomposeActions install browser-stdout@1.3.1
+171 silly decomposeActions postinstall browser-stdout@1.3.1
+172 silly decomposeActions finalize browser-stdout@1.3.1
+173 silly decomposeActions refresh-package-json browser-stdout@1.3.1
+174 silly decomposeActions fetch commander@2.15.1
+175 silly decomposeActions extract commander@2.15.1
+176 silly decomposeActions preinstall commander@2.15.1
+177 silly decomposeActions build commander@2.15.1
+178 silly decomposeActions install commander@2.15.1
+179 silly decomposeActions postinstall commander@2.15.1
+180 silly decomposeActions finalize commander@2.15.1
+181 silly decomposeActions refresh-package-json commander@2.15.1
+182 silly decomposeActions fetch concat-map@0.0.1
+183 silly decomposeActions extract concat-map@0.0.1
+184 silly decomposeActions preinstall concat-map@0.0.1
+185 silly decomposeActions build concat-map@0.0.1
+186 silly decomposeActions install concat-map@0.0.1
+187 silly decomposeActions postinstall concat-map@0.0.1
+188 silly decomposeActions finalize concat-map@0.0.1
+189 silly decomposeActions refresh-package-json concat-map@0.0.1
+190 silly decomposeActions fetch brace-expansion@1.1.11
+191 silly decomposeActions extract brace-expansion@1.1.11
+192 silly decomposeActions preinstall brace-expansion@1.1.11
+193 silly decomposeActions build brace-expansion@1.1.11
+194 silly decomposeActions install brace-expansion@1.1.11
+195 silly decomposeActions postinstall brace-expansion@1.1.11
+196 silly decomposeActions finalize brace-expansion@1.1.11
+197 silly decomposeActions refresh-package-json brace-expansion@1.1.11
+198 silly decomposeActions fetch diff@3.5.0
+199 silly decomposeActions extract diff@3.5.0
+200 silly decomposeActions preinstall diff@3.5.0
+201 silly decomposeActions build diff@3.5.0
+202 silly decomposeActions install diff@3.5.0
+203 silly decomposeActions postinstall diff@3.5.0
+204 silly decomposeActions finalize diff@3.5.0
+205 silly decomposeActions refresh-package-json diff@3.5.0
+206 silly decomposeActions fetch escape-string-regexp@1.0.5
+207 silly decomposeActions extract escape-string-regexp@1.0.5
+208 silly decomposeActions preinstall escape-string-regexp@1.0.5
+209 silly decomposeActions build escape-string-regexp@1.0.5
+210 silly decomposeActions install escape-string-regexp@1.0.5
+211 silly decomposeActions postinstall escape-string-regexp@1.0.5
+212 silly decomposeActions finalize escape-string-regexp@1.0.5
+213 silly decomposeActions refresh-package-json escape-string-regexp@1.0.5
+214 silly decomposeActions fetch fs.realpath@1.0.0
+215 silly decomposeActions extract fs.realpath@1.0.0
+216 silly decomposeActions preinstall fs.realpath@1.0.0
+217 silly decomposeActions build fs.realpath@1.0.0
+218 silly decomposeActions install fs.realpath@1.0.0
+219 silly decomposeActions postinstall fs.realpath@1.0.0
+220 silly decomposeActions finalize fs.realpath@1.0.0
+221 silly decomposeActions refresh-package-json fs.realpath@1.0.0
+222 silly decomposeActions fetch growl@1.10.5
+223 silly decomposeActions extract growl@1.10.5
+224 silly decomposeActions preinstall growl@1.10.5
+225 silly decomposeActions build growl@1.10.5
+226 silly decomposeActions install growl@1.10.5
+227 silly decomposeActions postinstall growl@1.10.5
+228 silly decomposeActions finalize growl@1.10.5
+229 silly decomposeActions refresh-package-json growl@1.10.5
+230 silly decomposeActions fetch has-flag@3.0.0
+231 silly decomposeActions extract has-flag@3.0.0
+232 silly decomposeActions preinstall has-flag@3.0.0
+233 silly decomposeActions build has-flag@3.0.0
+234 silly decomposeActions install has-flag@3.0.0
+235 silly decomposeActions postinstall has-flag@3.0.0
+236 silly decomposeActions finalize has-flag@3.0.0
+237 silly decomposeActions refresh-package-json has-flag@3.0.0
+238 silly decomposeActions fetch he@1.1.1
+239 silly decomposeActions extract he@1.1.1
+240 silly decomposeActions preinstall he@1.1.1
+241 silly decomposeActions build he@1.1.1
+242 silly decomposeActions install he@1.1.1
+243 silly decomposeActions postinstall he@1.1.1
+244 silly decomposeActions finalize he@1.1.1
+245 silly decomposeActions refresh-package-json he@1.1.1
+246 silly decomposeActions fetch inherits@2.0.4
+247 silly decomposeActions extract inherits@2.0.4
+248 silly decomposeActions preinstall inherits@2.0.4
+249 silly decomposeActions build inherits@2.0.4
+250 silly decomposeActions install inherits@2.0.4
+251 silly decomposeActions postinstall inherits@2.0.4
+252 silly decomposeActions finalize inherits@2.0.4
+253 silly decomposeActions refresh-package-json inherits@2.0.4
+254 silly decomposeActions fetch minimatch@3.0.4
+255 silly decomposeActions extract minimatch@3.0.4
+256 silly decomposeActions preinstall minimatch@3.0.4
+257 silly decomposeActions build minimatch@3.0.4
+258 silly decomposeActions install minimatch@3.0.4
+259 silly decomposeActions postinstall minimatch@3.0.4
+260 silly decomposeActions finalize minimatch@3.0.4
+261 silly decomposeActions refresh-package-json minimatch@3.0.4
+262 silly decomposeActions fetch minimist@0.0.8
+263 silly decomposeActions extract minimist@0.0.8
+264 silly decomposeActions preinstall minimist@0.0.8
+265 silly decomposeActions build minimist@0.0.8
+266 silly decomposeActions install minimist@0.0.8
+267 silly decomposeActions postinstall minimist@0.0.8
+268 silly decomposeActions finalize minimist@0.0.8
+269 silly decomposeActions refresh-package-json minimist@0.0.8
+270 silly decomposeActions fetch mkdirp@0.5.1
+271 silly decomposeActions extract mkdirp@0.5.1
+272 silly decomposeActions preinstall mkdirp@0.5.1
+273 silly decomposeActions build mkdirp@0.5.1
+274 silly decomposeActions install mkdirp@0.5.1
+275 silly decomposeActions postinstall mkdirp@0.5.1
+276 silly decomposeActions finalize mkdirp@0.5.1
+277 silly decomposeActions refresh-package-json mkdirp@0.5.1
+278 silly decomposeActions fetch ms@2.0.0
+279 silly decomposeActions extract ms@2.0.0
+280 silly decomposeActions preinstall ms@2.0.0
+281 silly decomposeActions build ms@2.0.0
+282 silly decomposeActions install ms@2.0.0
+283 silly decomposeActions postinstall ms@2.0.0
+284 silly decomposeActions finalize ms@2.0.0
+285 silly decomposeActions refresh-package-json ms@2.0.0
+286 silly decomposeActions fetch debug@3.1.0
+287 silly decomposeActions extract debug@3.1.0
+288 silly decomposeActions preinstall debug@3.1.0
+289 silly decomposeActions build debug@3.1.0
+290 silly decomposeActions install debug@3.1.0
+291 silly decomposeActions postinstall debug@3.1.0
+292 silly decomposeActions finalize debug@3.1.0
+293 silly decomposeActions refresh-package-json debug@3.1.0
+294 silly decomposeActions fetch path-is-absolute@1.0.1
+295 silly decomposeActions extract path-is-absolute@1.0.1
+296 silly decomposeActions preinstall path-is-absolute@1.0.1
+297 silly decomposeActions build path-is-absolute@1.0.1
+298 silly decomposeActions install path-is-absolute@1.0.1
+299 silly decomposeActions postinstall path-is-absolute@1.0.1
+300 silly decomposeActions finalize path-is-absolute@1.0.1
+301 silly decomposeActions refresh-package-json path-is-absolute@1.0.1
+302 silly decomposeActions fetch supports-color@5.4.0
+303 silly decomposeActions extract supports-color@5.4.0
+304 silly decomposeActions preinstall supports-color@5.4.0
+305 silly decomposeActions build supports-color@5.4.0
+306 silly decomposeActions install supports-color@5.4.0
+307 silly decomposeActions postinstall supports-color@5.4.0
+308 silly decomposeActions finalize supports-color@5.4.0
+309 silly decomposeActions refresh-package-json supports-color@5.4.0
+310 silly decomposeActions fetch wrappy@1.0.2
+311 silly decomposeActions extract wrappy@1.0.2
+312 silly decomposeActions preinstall wrappy@1.0.2
+313 silly decomposeActions build wrappy@1.0.2
+314 silly decomposeActions install wrappy@1.0.2
+315 silly decomposeActions postinstall wrappy@1.0.2
+316 silly decomposeActions finalize wrappy@1.0.2
+317 silly decomposeActions refresh-package-json wrappy@1.0.2
+318 silly decomposeActions fetch once@1.4.0
+319 silly decomposeActions extract once@1.4.0
+320 silly decomposeActions preinstall once@1.4.0
+321 silly decomposeActions build once@1.4.0
+322 silly decomposeActions install once@1.4.0
+323 silly decomposeActions postinstall once@1.4.0
+324 silly decomposeActions finalize once@1.4.0
+325 silly decomposeActions refresh-package-json once@1.4.0
+326 silly decomposeActions fetch inflight@1.0.6
+327 silly decomposeActions extract inflight@1.0.6
+328 silly decomposeActions preinstall inflight@1.0.6
+329 silly decomposeActions build inflight@1.0.6
+330 silly decomposeActions install inflight@1.0.6
+331 silly decomposeActions postinstall inflight@1.0.6
+332 silly decomposeActions finalize inflight@1.0.6
+333 silly decomposeActions refresh-package-json inflight@1.0.6
+334 silly decomposeActions fetch glob@7.1.2
+335 silly decomposeActions extract glob@7.1.2
+336 silly decomposeActions preinstall glob@7.1.2
+337 silly decomposeActions build glob@7.1.2
+338 silly decomposeActions install glob@7.1.2
+339 silly decomposeActions postinstall glob@7.1.2
+340 silly decomposeActions finalize glob@7.1.2
+341 silly decomposeActions refresh-package-json glob@7.1.2
+342 silly decomposeActions fetch app-module-path@2.2.0
+343 silly decomposeActions extract app-module-path@2.2.0
+344 silly decomposeActions preinstall app-module-path@2.2.0
+345 silly decomposeActions build app-module-path@2.2.0
+346 silly decomposeActions install app-module-path@2.2.0
+347 silly decomposeActions postinstall app-module-path@2.2.0
+348 silly decomposeActions finalize app-module-path@2.2.0
+349 silly decomposeActions refresh-package-json app-module-path@2.2.0
+350 silly decomposeActions fetch mocha@5.2.0
+351 silly decomposeActions extract mocha@5.2.0
+352 silly decomposeActions preinstall mocha@5.2.0
+353 silly decomposeActions build mocha@5.2.0
+354 silly decomposeActions install mocha@5.2.0
+355 silly decomposeActions postinstall mocha@5.2.0
+356 silly decomposeActions finalize mocha@5.2.0
+357 silly decomposeActions refresh-package-json mocha@5.2.0
+358 silly decomposeActions fetch original-require@1.0.1
+359 silly decomposeActions extract original-require@1.0.1
+360 silly decomposeActions preinstall original-require@1.0.1
+361 silly decomposeActions build original-require@1.0.1
+362 silly decomposeActions install original-require@1.0.1
+363 silly decomposeActions postinstall original-require@1.0.1
+364 silly decomposeActions finalize original-require@1.0.1
+365 silly decomposeActions refresh-package-json original-require@1.0.1
+366 silly decomposeActions fetch truffle@5.1.33
+367 silly decomposeActions extract truffle@5.1.33
+368 silly decomposeActions preinstall truffle@5.1.33
+369 silly decomposeActions build truffle@5.1.33
+370 silly decomposeActions install truffle@5.1.33
+371 silly decomposeActions postinstall truffle@5.1.33
+372 silly decomposeActions finalize truffle@5.1.33
+373 silly decomposeActions refresh-package-json truffle@5.1.33
+374 silly install executeActions
+375 silly doSerial global-install 216
+376 verbose correctMkdir /root/.npm/_locks correctMkdir not in flight; initializing
+377 verbose lock using /root/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+378 silly doParallel extract 27
+379 silly extract balanced-match@1.0.0
+380 silly extract browser-stdout@1.3.1
+381 silly extract commander@2.15.1
+382 silly extract concat-map@0.0.1
+383 silly extract brace-expansion@1.1.11
+384 silly extract diff@3.5.0
+385 silly extract escape-string-regexp@1.0.5
+386 silly extract fs.realpath@1.0.0
+387 silly extract growl@1.10.5
+388 silly extract has-flag@3.0.0
+389 silly extract he@1.1.1
+390 silly extract inherits@2.0.4
+391 silly extract minimatch@3.0.4
+392 silly extract minimist@0.0.8
+393 silly extract mkdirp@0.5.1
+394 silly extract ms@2.0.0
+395 silly extract debug@3.1.0
+396 silly extract path-is-absolute@1.0.1
+397 silly extract supports-color@5.4.0
+398 silly extract wrappy@1.0.2
+399 silly extract once@1.4.0
+400 silly extract inflight@1.0.6
+401 silly extract glob@7.1.2
+402 silly extract app-module-path@2.2.0
+403 silly extract mocha@5.2.0
+404 silly extract original-require@1.0.1
+405 silly extract truffle@5.1.33
+406 silly tarball trying balanced-match@^1.0.0 by hash: sha1-ibTRmasr7kneFk6gK4nORi1xt2c=
+407 silly tarball trying browser-stdout@1.3.1 by hash: sha512-qhAVI1+Av2X7qelOfAIYwXONood6XlZE/fXaBSmW/T5SzLAmCgzi+eiWE7fUvbHaeNBQH13UftjpXxsfLkMpgw==
+408 silly tarball trying commander@2.15.1 by hash: sha512-VlfT9F3V0v+jr4yxPc5gg9s62/fIVWsd2Bk2iD435um1NlGMYdVCq+MjcXnhYq2icNOizHr1kK+5TI6H0Hy0ag==
+409 silly tarball trying concat-map@0.0.1 by hash: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
+410 silly tarball trying brace-expansion@^1.1.7 by hash: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==
+411 silly tarball trying diff@3.5.0 by hash: sha512-A46qtFgd+g7pDZinpnwiRJtxbC1hpgf0uzP3iG89scHk0AUC7A1TGxf5OiiOUv/JMZR8GOt8hL900hV0bOy5xA==
+412 silly tarball trying escape-string-regexp@1.0.5 by hash: sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
+413 silly tarball trying fs.realpath@^1.0.0 by hash: sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
+414 silly tarball trying growl@1.10.5 by hash: sha512-qBr4OuELkhPenW6goKVXiv47US3clb3/IbuWF9KNKEijAy9oeHxU9IgzjvJhHkUzhaj7rOUD7+YGWqUjLp5oSA==
+415 silly tarball trying has-flag@^3.0.0 by hash: sha1-tdRU3CGZriJWmfNGfloH87lVuv0=
+416 silly tarball trying he@1.1.1 by hash: sha1-k0EP0hsAlzUVH4howvJx80J+I/0=
+417 silly tarball trying inherits@2 by hash: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
+418 silly tarball trying minimatch@3.0.4 by hash: sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==
+419 silly tarball trying minimist@0.0.8 by hash: sha1-hX/Kv8M5fSYluCKCYuhqp6ARsF0=
+420 silly tarball trying mkdirp@0.5.1 by hash: sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=
+421 silly tarball trying ms@2.0.0 by hash: sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
+422 silly tarball trying debug@3.1.0 by hash: sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
+423 silly tarball trying path-is-absolute@^1.0.0 by hash: sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
+424 silly tarball trying supports-color@5.4.0 by hash: sha512-zjaXglF5nnWpsq470jSv6P9DwPvgLkuapYmfDm3JWOm0vkNTVF2tI4UrN2r6jH1qM/uc/WtxYY1hYoA2dOKj5w==
+425 silly tarball trying wrappy@1 by hash: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
+426 silly tarball trying once@^1.3.0 by hash: sha1-WDsap3WWHUsROsF9nFC6753Xa9E=
+427 silly tarball trying inflight@^1.0.4 by hash: sha1-Sb1jMdfQLQwJvJEKEHW6gWW1bfk=
+428 silly tarball trying glob@7.1.2 by hash: sha512-MJTUg1kjuLeQCJ+ccE4Vpa6kKVXkPYJ2mOCQyUuKLcLQsdrMCpBPUi8qVE6+YuaJkozeA9NusTAw3hLr8Xe5EQ==
+429 silly tarball trying app-module-path@^2.2.0 by hash: sha1-ZBqlXft9am8KgUHEucCqULbCTdU=
+430 silly tarball trying mocha@5.2.0 by hash: sha512-2IUgKDhc3J7Uug+FxMXuqIyYzH7gJjXECKe/w43IGgQHTSj3InJi+yAA7T24L9bQMRKiUEHxEX37G5JpVUGLcQ==
+431 silly tarball trying original-require@1.0.1 by hash: sha1-DxMEcVhM0zURxew4yNWSE/msXiA=
+432 silly tarball trying truffle@latest by hash: sha512-zV220OC6YtKSOViA+eQpU61orAlNX4msDogecUsjsxjH0MZGIVPMfsh1LiA817KXIg1uEM7G5XPjTaCJeRB8iw==
+433 silly extract original-require@1.0.1 extracted to /usr/local/lib/node_modules/.staging/original-require-748d428b (563ms)
+434 silly extract balanced-match@^1.0.0 extracted to /usr/local/lib/node_modules/.staging/balanced-match-a985f405 (577ms)
+435 silly extract browser-stdout@1.3.1 extracted to /usr/local/lib/node_modules/.staging/browser-stdout-6a67bcb1 (603ms)
+436 silly extract brace-expansion@^1.1.7 extracted to /usr/local/lib/node_modules/.staging/brace-expansion-155f5738 (602ms)
+437 silly extract escape-string-regexp@1.0.5 extracted to /usr/local/lib/node_modules/.staging/escape-string-regexp-9e617f81 (601ms)
+438 silly extract has-flag@^3.0.0 extracted to /usr/local/lib/node_modules/.staging/has-flag-13a3cbac (599ms)
+439 silly extract ms@2.0.0 extracted to /usr/local/lib/node_modules/.staging/ms-edfd788a (596ms)
+440 silly extract path-is-absolute@^1.0.0 extracted to /usr/local/lib/node_modules/.staging/path-is-absolute-7104b31e (595ms)
+441 silly extract wrappy@1 extracted to /usr/local/lib/node_modules/.staging/wrappy-fd9c28bd (594ms)
+442 silly extract inflight@^1.0.4 extracted to /usr/local/lib/node_modules/.staging/inflight-eb8af36e (593ms)
+443 silly extract once@^1.3.0 extracted to /usr/local/lib/node_modules/.staging/once-b5297614 (594ms)
+444 silly extract inherits@2 extracted to /usr/local/lib/node_modules/.staging/inherits-55ae1fb7 (612ms)
+445 silly extract supports-color@5.4.0 extracted to /usr/local/lib/node_modules/.staging/supports-color-12610b49 (609ms)
+446 silly extract fs.realpath@^1.0.0 extracted to /usr/local/lib/node_modules/.staging/fs.realpath-e55e9d09 (645ms)
+447 silly extract minimatch@3.0.4 extracted to /usr/local/lib/node_modules/.staging/minimatch-86f49741 (642ms)
+448 silly extract concat-map@0.0.1 extracted to /usr/local/lib/node_modules/.staging/concat-map-b1a8e1fb (670ms)
+449 silly extract commander@2.15.1 extracted to /usr/local/lib/node_modules/.staging/commander-2a847f87 (681ms)
+450 silly extract glob@7.1.2 extracted to /usr/local/lib/node_modules/.staging/glob-29d8e34d (705ms)
+451 silly extract growl@1.10.5 extracted to /usr/local/lib/node_modules/.staging/growl-1c0bc191 (730ms)
+452 silly extract minimist@0.0.8 extracted to /usr/local/lib/node_modules/.staging/minimist-38a9b2ad (727ms)
+453 silly extract he@1.1.1 extracted to /usr/local/lib/node_modules/.staging/he-c0911ffe (728ms)
+454 silly extract debug@3.1.0 extracted to /usr/local/lib/node_modules/.staging/debug-fc12a83c (749ms)
+455 silly extract mkdirp@0.5.1 extracted to /usr/local/lib/node_modules/.staging/mkdirp-7e81425a (770ms)
+456 silly extract app-module-path@^2.2.0 extracted to /usr/local/lib/node_modules/.staging/app-module-path-37905d11 (837ms)
+457 silly extract diff@3.5.0 extracted to /usr/local/lib/node_modules/.staging/diff-f820c673 (957ms)
+458 silly extract mocha@5.2.0 extracted to /usr/local/lib/node_modules/.staging/mocha-096c67a1 (969ms)
+459 silly extract truffle@latest extracted to /usr/local/lib/node_modules/.staging/truffle-d2c15ef2 (10419ms)
+460 timing action:extract Completed in 10443ms
+461 silly doReverseSerial unbuild 216
+462 silly doSerial remove 216
+463 silly doSerial move 216
+464 silly doSerial finalize 216
+465 silly finalize /usr/local/lib/node_modules/truffle/node_modules/balanced-match
+466 silly finalize /usr/local/lib/node_modules/truffle/node_modules/browser-stdout
+467 silly finalize /usr/local/lib/node_modules/truffle/node_modules/commander
+468 silly finalize /usr/local/lib/node_modules/truffle/node_modules/concat-map
+469 silly finalize /usr/local/lib/node_modules/truffle/node_modules/brace-expansion
+470 silly finalize /usr/local/lib/node_modules/truffle/node_modules/diff
+471 silly finalize /usr/local/lib/node_modules/truffle/node_modules/escape-string-regexp
+472 silly finalize /usr/local/lib/node_modules/truffle/node_modules/fs.realpath
+473 silly finalize /usr/local/lib/node_modules/truffle/node_modules/growl
+474 silly finalize /usr/local/lib/node_modules/truffle/node_modules/has-flag
+475 silly finalize /usr/local/lib/node_modules/truffle/node_modules/he
+476 silly finalize /usr/local/lib/node_modules/truffle/node_modules/inherits
+477 silly finalize /usr/local/lib/node_modules/truffle/node_modules/minimatch
+478 silly finalize /usr/local/lib/node_modules/truffle/node_modules/minimist
+479 silly finalize /usr/local/lib/node_modules/truffle/node_modules/mkdirp
+480 silly finalize /usr/local/lib/node_modules/truffle/node_modules/ms
+481 silly finalize /usr/local/lib/node_modules/truffle/node_modules/debug
+482 silly finalize /usr/local/lib/node_modules/truffle/node_modules/path-is-absolute
+483 silly finalize /usr/local/lib/node_modules/truffle/node_modules/supports-color
+484 silly finalize /usr/local/lib/node_modules/truffle/node_modules/wrappy
+485 silly finalize /usr/local/lib/node_modules/truffle/node_modules/once
+486 silly finalize /usr/local/lib/node_modules/truffle/node_modules/inflight
+487 silly finalize /usr/local/lib/node_modules/truffle/node_modules/glob
+488 silly finalize /usr/local/lib/node_modules/truffle/node_modules/app-module-path
+489 silly finalize /usr/local/lib/node_modules/truffle/node_modules/mocha
+490 silly finalize /usr/local/lib/node_modules/truffle/node_modules/original-require
+491 silly finalize /usr/local/lib/node_modules/truffle
+492 timing action:finalize Completed in 163ms
+493 silly doParallel refresh-package-json 27
+494 silly refresh-package-json /usr/local/lib/node_modules/truffle/node_modules/balanced-match
+495 silly refresh-package-json /usr/local/lib/node_modules/truffle/node_modules/browser-stdout
+496 silly refresh-package-json /usr/local/lib/node_modules/truffle/node_modules/commander
+497 silly refresh-package-json /usr/local/lib/node_modules/truffle/node_modules/concat-map
+498 silly refresh-package-json /usr/local/lib/node_modules/truffle/node_modules/brace-expansion
+499 silly refresh-package-json /usr/local/lib/node_modules/truffle/node_modules/diff
+500 silly refresh-package-json /usr/local/lib/node_modules/truffle/node_modules/escape-string-regexp
+501 silly refresh-package-json /usr/local/lib/node_modules/truffle/node_modules/fs.realpath
+502 silly refresh-package-json /usr/local/lib/node_modules/truffle/node_modules/growl
+503 silly refresh-package-json /usr/local/lib/node_modules/truffle/node_modules/has-flag
+504 silly refresh-package-json /usr/local/lib/node_modules/truffle/node_modules/he
+505 silly refresh-package-json /usr/local/lib/node_modules/truffle/node_modules/inherits
+506 silly refresh-package-json /usr/local/lib/node_modules/truffle/node_modules/minimatch
+507 silly refresh-package-json /usr/local/lib/node_modules/truffle/node_modules/minimist
+508 silly refresh-package-json /usr/local/lib/node_modules/truffle/node_modules/mkdirp
+509 silly refresh-package-json /usr/local/lib/node_modules/truffle/node_modules/ms
+510 silly refresh-package-json /usr/local/lib/node_modules/truffle/node_modules/debug
+511 silly refresh-package-json /usr/local/lib/node_modules/truffle/node_modules/path-is-absolute
+512 silly refresh-package-json /usr/local/lib/node_modules/truffle/node_modules/supports-color
+513 silly refresh-package-json /usr/local/lib/node_modules/truffle/node_modules/wrappy
+514 silly refresh-package-json /usr/local/lib/node_modules/truffle/node_modules/once
+515 silly refresh-package-json /usr/local/lib/node_modules/truffle/node_modules/inflight
+516 silly refresh-package-json /usr/local/lib/node_modules/truffle/node_modules/glob
+517 silly refresh-package-json /usr/local/lib/node_modules/truffle/node_modules/app-module-path
+518 silly refresh-package-json /usr/local/lib/node_modules/truffle/node_modules/mocha
+519 silly refresh-package-json /usr/local/lib/node_modules/truffle/node_modules/original-require
+520 silly refresh-package-json /usr/local/lib/node_modules/truffle
+521 timing action:refresh-package-json Completed in 303ms
+522 silly doParallel preinstall 27
+523 silly preinstall balanced-match@1.0.0
+524 info lifecycle balanced-match@1.0.0~preinstall: balanced-match@1.0.0
+525 silly preinstall browser-stdout@1.3.1
+526 info lifecycle browser-stdout@1.3.1~preinstall: browser-stdout@1.3.1
+527 silly preinstall commander@2.15.1
+528 info lifecycle commander@2.15.1~preinstall: commander@2.15.1
+529 silly preinstall concat-map@0.0.1
+530 info lifecycle concat-map@0.0.1~preinstall: concat-map@0.0.1
+531 silly preinstall brace-expansion@1.1.11
+532 info lifecycle brace-expansion@1.1.11~preinstall: brace-expansion@1.1.11
+533 silly preinstall diff@3.5.0
+534 info lifecycle diff@3.5.0~preinstall: diff@3.5.0
+535 silly preinstall escape-string-regexp@1.0.5
+536 info lifecycle escape-string-regexp@1.0.5~preinstall: escape-string-regexp@1.0.5
+537 silly preinstall fs.realpath@1.0.0
+538 info lifecycle fs.realpath@1.0.0~preinstall: fs.realpath@1.0.0
+539 silly preinstall growl@1.10.5
+540 info lifecycle growl@1.10.5~preinstall: growl@1.10.5
+541 silly preinstall has-flag@3.0.0
+542 info lifecycle has-flag@3.0.0~preinstall: has-flag@3.0.0
+543 silly preinstall he@1.1.1
+544 info lifecycle he@1.1.1~preinstall: he@1.1.1
+545 silly preinstall inherits@2.0.4
+546 info lifecycle inherits@2.0.4~preinstall: inherits@2.0.4
+547 silly preinstall minimatch@3.0.4
+548 info lifecycle minimatch@3.0.4~preinstall: minimatch@3.0.4
+549 silly preinstall minimist@0.0.8
+550 info lifecycle minimist@0.0.8~preinstall: minimist@0.0.8
+551 silly preinstall mkdirp@0.5.1
+552 info lifecycle mkdirp@0.5.1~preinstall: mkdirp@0.5.1
+553 silly preinstall ms@2.0.0
+554 info lifecycle ms@2.0.0~preinstall: ms@2.0.0
+555 silly preinstall debug@3.1.0
+556 info lifecycle debug@3.1.0~preinstall: debug@3.1.0
+557 silly preinstall path-is-absolute@1.0.1
+558 info lifecycle path-is-absolute@1.0.1~preinstall: path-is-absolute@1.0.1
+559 silly preinstall supports-color@5.4.0
+560 info lifecycle supports-color@5.4.0~preinstall: supports-color@5.4.0
+561 silly preinstall wrappy@1.0.2
+562 info lifecycle wrappy@1.0.2~preinstall: wrappy@1.0.2
+563 silly preinstall once@1.4.0
+564 info lifecycle once@1.4.0~preinstall: once@1.4.0
+565 silly preinstall inflight@1.0.6
+566 info lifecycle inflight@1.0.6~preinstall: inflight@1.0.6
+567 silly preinstall glob@7.1.2
+568 info lifecycle glob@7.1.2~preinstall: glob@7.1.2
+569 silly preinstall app-module-path@2.2.0
+570 info lifecycle app-module-path@2.2.0~preinstall: app-module-path@2.2.0
+571 silly preinstall mocha@5.2.0
+572 info lifecycle mocha@5.2.0~preinstall: mocha@5.2.0
+573 silly preinstall original-require@1.0.1
+574 info lifecycle original-require@1.0.1~preinstall: original-require@1.0.1
+575 silly preinstall truffle@5.1.33
+576 info lifecycle truffle@5.1.33~preinstall: truffle@5.1.33
+577 timing action:preinstall Completed in 12ms
+578 silly doSerial build 216
+579 silly build balanced-match@1.0.0
+580 info linkStuff balanced-match@1.0.0
+581 silly linkStuff balanced-match@1.0.0 has /usr/local/lib/node_modules/truffle/node_modules as its parent node_modules
+582 silly linkStuff balanced-match@1.0.0 is part of a global install
+583 silly linkStuff balanced-match@1.0.0 is installed into a global node_modules
+584 silly build browser-stdout@1.3.1
+585 info linkStuff browser-stdout@1.3.1
+586 silly linkStuff browser-stdout@1.3.1 has /usr/local/lib/node_modules/truffle/node_modules as its parent node_modules
+587 silly linkStuff browser-stdout@1.3.1 is part of a global install
+588 silly linkStuff browser-stdout@1.3.1 is installed into a global node_modules
+589 silly build commander@2.15.1
+590 info linkStuff commander@2.15.1
+591 silly linkStuff commander@2.15.1 has /usr/local/lib/node_modules/truffle/node_modules as its parent node_modules
+592 silly linkStuff commander@2.15.1 is part of a global install
+593 silly linkStuff commander@2.15.1 is installed into a global node_modules
+594 silly build concat-map@0.0.1
+595 info linkStuff concat-map@0.0.1
+596 silly linkStuff concat-map@0.0.1 has /usr/local/lib/node_modules/truffle/node_modules as its parent node_modules
+597 silly linkStuff concat-map@0.0.1 is part of a global install
+598 silly linkStuff concat-map@0.0.1 is installed into a global node_modules
+599 silly build brace-expansion@1.1.11
+600 info linkStuff brace-expansion@1.1.11
+601 silly linkStuff brace-expansion@1.1.11 has /usr/local/lib/node_modules/truffle/node_modules as its parent node_modules
+602 silly linkStuff brace-expansion@1.1.11 is part of a global install
+603 silly linkStuff brace-expansion@1.1.11 is installed into a global node_modules
+604 silly build diff@3.5.0
+605 info linkStuff diff@3.5.0
+606 silly linkStuff diff@3.5.0 has /usr/local/lib/node_modules/truffle/node_modules as its parent node_modules
+607 silly linkStuff diff@3.5.0 is part of a global install
+608 silly linkStuff diff@3.5.0 is installed into a global node_modules
+609 silly build escape-string-regexp@1.0.5
+610 info linkStuff escape-string-regexp@1.0.5
+611 silly linkStuff escape-string-regexp@1.0.5 has /usr/local/lib/node_modules/truffle/node_modules as its parent node_modules
+612 silly linkStuff escape-string-regexp@1.0.5 is part of a global install
+613 silly linkStuff escape-string-regexp@1.0.5 is installed into a global node_modules
+614 silly build fs.realpath@1.0.0
+615 info linkStuff fs.realpath@1.0.0
+616 silly linkStuff fs.realpath@1.0.0 has /usr/local/lib/node_modules/truffle/node_modules as its parent node_modules
+617 silly linkStuff fs.realpath@1.0.0 is part of a global install
+618 silly linkStuff fs.realpath@1.0.0 is installed into a global node_modules
+619 silly build growl@1.10.5
+620 info linkStuff growl@1.10.5
+621 silly linkStuff growl@1.10.5 has /usr/local/lib/node_modules/truffle/node_modules as its parent node_modules
+622 silly linkStuff growl@1.10.5 is part of a global install
+623 silly linkStuff growl@1.10.5 is installed into a global node_modules
+624 silly build has-flag@3.0.0
+625 info linkStuff has-flag@3.0.0
+626 silly linkStuff has-flag@3.0.0 has /usr/local/lib/node_modules/truffle/node_modules as its parent node_modules
+627 silly linkStuff has-flag@3.0.0 is part of a global install
+628 silly linkStuff has-flag@3.0.0 is installed into a global node_modules
+629 silly build he@1.1.1
+630 info linkStuff he@1.1.1
+631 silly linkStuff he@1.1.1 has /usr/local/lib/node_modules/truffle/node_modules as its parent node_modules
+632 silly linkStuff he@1.1.1 is part of a global install
+633 silly linkStuff he@1.1.1 is installed into a global node_modules
+634 verbose linkBins [ { he: 'bin/he' },
+634 verbose linkBins   '/usr/local/lib/node_modules/truffle/node_modules/.bin',
+634 verbose linkBins   false ]
+635 silly gently link link does not already exist { link: '/usr/local/lib/node_modules/truffle/node_modules/.bin/he',
+635 silly gently link   target: '/usr/local/lib/node_modules/truffle/node_modules/he/bin/he' }
+636 silly build inherits@2.0.4
+637 info linkStuff inherits@2.0.4
+638 silly linkStuff inherits@2.0.4 has /usr/local/lib/node_modules/truffle/node_modules as its parent node_modules
+639 silly linkStuff inherits@2.0.4 is part of a global install
+640 silly linkStuff inherits@2.0.4 is installed into a global node_modules
+641 silly build minimatch@3.0.4
+642 info linkStuff minimatch@3.0.4
+643 silly linkStuff minimatch@3.0.4 has /usr/local/lib/node_modules/truffle/node_modules as its parent node_modules
+644 silly linkStuff minimatch@3.0.4 is part of a global install
+645 silly linkStuff minimatch@3.0.4 is installed into a global node_modules
+646 silly build minimist@0.0.8
+647 info linkStuff minimist@0.0.8
+648 silly linkStuff minimist@0.0.8 has /usr/local/lib/node_modules/truffle/node_modules as its parent node_modules
+649 silly linkStuff minimist@0.0.8 is part of a global install
+650 silly linkStuff minimist@0.0.8 is installed into a global node_modules
+651 silly build mkdirp@0.5.1
+652 info linkStuff mkdirp@0.5.1
+653 silly linkStuff mkdirp@0.5.1 has /usr/local/lib/node_modules/truffle/node_modules as its parent node_modules
+654 silly linkStuff mkdirp@0.5.1 is part of a global install
+655 silly linkStuff mkdirp@0.5.1 is installed into a global node_modules
+656 verbose linkBins [ { mkdirp: 'bin/cmd.js' },
+656 verbose linkBins   '/usr/local/lib/node_modules/truffle/node_modules/.bin',
+656 verbose linkBins   false ]
+657 silly gently link link does not already exist { link:
+657 silly gently link    '/usr/local/lib/node_modules/truffle/node_modules/.bin/mkdirp',
+657 silly gently link   target:
+657 silly gently link    '/usr/local/lib/node_modules/truffle/node_modules/mkdirp/bin/cmd.js' }
+658 silly build ms@2.0.0
+659 info linkStuff ms@2.0.0
+660 silly linkStuff ms@2.0.0 has /usr/local/lib/node_modules/truffle/node_modules as its parent node_modules
+661 silly linkStuff ms@2.0.0 is part of a global install
+662 silly linkStuff ms@2.0.0 is installed into a global node_modules
+663 silly build debug@3.1.0
+664 info linkStuff debug@3.1.0
+665 silly linkStuff debug@3.1.0 has /usr/local/lib/node_modules/truffle/node_modules as its parent node_modules
+666 silly linkStuff debug@3.1.0 is part of a global install
+667 silly linkStuff debug@3.1.0 is installed into a global node_modules
+668 silly build path-is-absolute@1.0.1
+669 info linkStuff path-is-absolute@1.0.1
+670 silly linkStuff path-is-absolute@1.0.1 has /usr/local/lib/node_modules/truffle/node_modules as its parent node_modules
+671 silly linkStuff path-is-absolute@1.0.1 is part of a global install
+672 silly linkStuff path-is-absolute@1.0.1 is installed into a global node_modules
+673 silly build supports-color@5.4.0
+674 info linkStuff supports-color@5.4.0
+675 silly linkStuff supports-color@5.4.0 has /usr/local/lib/node_modules/truffle/node_modules as its parent node_modules
+676 silly linkStuff supports-color@5.4.0 is part of a global install
+677 silly linkStuff supports-color@5.4.0 is installed into a global node_modules
+678 silly build wrappy@1.0.2
+679 info linkStuff wrappy@1.0.2
+680 silly linkStuff wrappy@1.0.2 has /usr/local/lib/node_modules/truffle/node_modules as its parent node_modules
+681 silly linkStuff wrappy@1.0.2 is part of a global install
+682 silly linkStuff wrappy@1.0.2 is installed into a global node_modules
+683 silly build once@1.4.0
+684 info linkStuff once@1.4.0
+685 silly linkStuff once@1.4.0 has /usr/local/lib/node_modules/truffle/node_modules as its parent node_modules
+686 silly linkStuff once@1.4.0 is part of a global install
+687 silly linkStuff once@1.4.0 is installed into a global node_modules
+688 silly build inflight@1.0.6
+689 info linkStuff inflight@1.0.6
+690 silly linkStuff inflight@1.0.6 has /usr/local/lib/node_modules/truffle/node_modules as its parent node_modules
+691 silly linkStuff inflight@1.0.6 is part of a global install
+692 silly linkStuff inflight@1.0.6 is installed into a global node_modules
+693 silly build glob@7.1.2
+694 info linkStuff glob@7.1.2
+695 silly linkStuff glob@7.1.2 has /usr/local/lib/node_modules/truffle/node_modules as its parent node_modules
+696 silly linkStuff glob@7.1.2 is part of a global install
+697 silly linkStuff glob@7.1.2 is installed into a global node_modules
+698 silly build app-module-path@2.2.0
+699 info linkStuff app-module-path@2.2.0
+700 silly linkStuff app-module-path@2.2.0 has /usr/local/lib/node_modules/truffle/node_modules as its parent node_modules
+701 silly linkStuff app-module-path@2.2.0 is part of a global install
+702 silly linkStuff app-module-path@2.2.0 is installed into a global node_modules
+703 silly build mocha@5.2.0
+704 info linkStuff mocha@5.2.0
+705 silly linkStuff mocha@5.2.0 has /usr/local/lib/node_modules/truffle/node_modules as its parent node_modules
+706 silly linkStuff mocha@5.2.0 is part of a global install
+707 silly linkStuff mocha@5.2.0 is installed into a global node_modules
+708 verbose linkBins [ { mocha: 'bin/mocha', _mocha: 'bin/_mocha' },
+708 verbose linkBins   '/usr/local/lib/node_modules/truffle/node_modules/.bin',
+708 verbose linkBins   false ]
+709 silly gently link link does not already exist { link:
+709 silly gently link    '/usr/local/lib/node_modules/truffle/node_modules/.bin/mocha',
+709 silly gently link   target:
+709 silly gently link    '/usr/local/lib/node_modules/truffle/node_modules/mocha/bin/mocha' }
+710 silly gently link link does not already exist { link:
+710 silly gently link    '/usr/local/lib/node_modules/truffle/node_modules/.bin/_mocha',
+710 silly gently link   target:
+710 silly gently link    '/usr/local/lib/node_modules/truffle/node_modules/mocha/bin/_mocha' }
+711 silly build original-require@1.0.1
+712 info linkStuff original-require@1.0.1
+713 silly linkStuff original-require@1.0.1 has /usr/local/lib/node_modules/truffle/node_modules as its parent node_modules
+714 silly linkStuff original-require@1.0.1 is part of a global install
+715 silly linkStuff original-require@1.0.1 is installed into a global node_modules
+716 silly build truffle@5.1.33
+717 info linkStuff truffle@5.1.33
+718 silly linkStuff truffle@5.1.33 has /usr/local/lib/node_modules as its parent node_modules
+719 silly linkStuff truffle@5.1.33 is part of a global install
+720 silly linkStuff truffle@5.1.33 is installed into a global node_modules
+721 silly linkStuff truffle@5.1.33 is installed into the top-level global node_modules
+722 verbose linkBins [ { truffle: 'build/cli.bundled.js' }, '/usr/local/bin', true ]
+723 silly gently link link does not already exist { link: '/usr/local/bin/truffle',
+723 silly gently link   target: '/usr/local/lib/node_modules/truffle/build/cli.bundled.js' }
+724 timing action:build Completed in 58ms
+725 silly doSerial global-link 216
+726 silly doParallel update-linked 0
+727 silly doSerial install 216
+728 silly install balanced-match@1.0.0
+729 info lifecycle balanced-match@1.0.0~install: balanced-match@1.0.0
+730 silly install browser-stdout@1.3.1
+731 info lifecycle browser-stdout@1.3.1~install: browser-stdout@1.3.1
+732 silly install commander@2.15.1
+733 info lifecycle commander@2.15.1~install: commander@2.15.1
+734 silly install concat-map@0.0.1
+735 info lifecycle concat-map@0.0.1~install: concat-map@0.0.1
+736 silly install brace-expansion@1.1.11
+737 info lifecycle brace-expansion@1.1.11~install: brace-expansion@1.1.11
+738 silly install diff@3.5.0
+739 info lifecycle diff@3.5.0~install: diff@3.5.0
+740 silly install escape-string-regexp@1.0.5
+741 info lifecycle escape-string-regexp@1.0.5~install: escape-string-regexp@1.0.5
+742 silly install fs.realpath@1.0.0
+743 info lifecycle fs.realpath@1.0.0~install: fs.realpath@1.0.0
+744 silly install growl@1.10.5
+745 info lifecycle growl@1.10.5~install: growl@1.10.5
+746 silly install has-flag@3.0.0
+747 info lifecycle has-flag@3.0.0~install: has-flag@3.0.0
+748 silly install he@1.1.1
+749 info lifecycle he@1.1.1~install: he@1.1.1
+750 silly install inherits@2.0.4
+751 info lifecycle inherits@2.0.4~install: inherits@2.0.4
+752 silly install minimatch@3.0.4
+753 info lifecycle minimatch@3.0.4~install: minimatch@3.0.4
+754 silly install minimist@0.0.8
+755 info lifecycle minimist@0.0.8~install: minimist@0.0.8
+756 silly install mkdirp@0.5.1
+757 info lifecycle mkdirp@0.5.1~install: mkdirp@0.5.1
+758 silly install ms@2.0.0
+759 info lifecycle ms@2.0.0~install: ms@2.0.0
+760 silly install debug@3.1.0
+761 info lifecycle debug@3.1.0~install: debug@3.1.0
+762 silly install path-is-absolute@1.0.1
+763 info lifecycle path-is-absolute@1.0.1~install: path-is-absolute@1.0.1
+764 silly install supports-color@5.4.0
+765 info lifecycle supports-color@5.4.0~install: supports-color@5.4.0
+766 silly install wrappy@1.0.2
+767 info lifecycle wrappy@1.0.2~install: wrappy@1.0.2
+768 silly install once@1.4.0
+769 info lifecycle once@1.4.0~install: once@1.4.0
+770 silly install inflight@1.0.6
+771 info lifecycle inflight@1.0.6~install: inflight@1.0.6
+772 silly install glob@7.1.2
+773 info lifecycle glob@7.1.2~install: glob@7.1.2
+774 silly install app-module-path@2.2.0
+775 info lifecycle app-module-path@2.2.0~install: app-module-path@2.2.0
+776 silly install mocha@5.2.0
+777 info lifecycle mocha@5.2.0~install: mocha@5.2.0
+778 silly install original-require@1.0.1
+779 info lifecycle original-require@1.0.1~install: original-require@1.0.1
+780 silly install truffle@5.1.33
+781 info lifecycle truffle@5.1.33~install: truffle@5.1.33
+782 timing action:install Completed in 24ms
+783 silly doSerial postinstall 216
+784 silly postinstall balanced-match@1.0.0
+785 info lifecycle balanced-match@1.0.0~postinstall: balanced-match@1.0.0
+786 silly postinstall browser-stdout@1.3.1
+787 info lifecycle browser-stdout@1.3.1~postinstall: browser-stdout@1.3.1
+788 silly postinstall commander@2.15.1
+789 info lifecycle commander@2.15.1~postinstall: commander@2.15.1
+790 silly postinstall concat-map@0.0.1
+791 info lifecycle concat-map@0.0.1~postinstall: concat-map@0.0.1
+792 silly postinstall brace-expansion@1.1.11
+793 info lifecycle brace-expansion@1.1.11~postinstall: brace-expansion@1.1.11
+794 silly postinstall diff@3.5.0
+795 info lifecycle diff@3.5.0~postinstall: diff@3.5.0
+796 silly postinstall escape-string-regexp@1.0.5
+797 info lifecycle escape-string-regexp@1.0.5~postinstall: escape-string-regexp@1.0.5
+798 silly postinstall fs.realpath@1.0.0
+799 info lifecycle fs.realpath@1.0.0~postinstall: fs.realpath@1.0.0
+800 silly postinstall growl@1.10.5
+801 info lifecycle growl@1.10.5~postinstall: growl@1.10.5
+802 silly postinstall has-flag@3.0.0
+803 info lifecycle has-flag@3.0.0~postinstall: has-flag@3.0.0
+804 silly postinstall he@1.1.1
+805 info lifecycle he@1.1.1~postinstall: he@1.1.1
+806 silly postinstall inherits@2.0.4
+807 info lifecycle inherits@2.0.4~postinstall: inherits@2.0.4
+808 silly postinstall minimatch@3.0.4
+809 info lifecycle minimatch@3.0.4~postinstall: minimatch@3.0.4
+810 silly postinstall minimist@0.0.8
+811 info lifecycle minimist@0.0.8~postinstall: minimist@0.0.8
+812 silly postinstall mkdirp@0.5.1
+813 info lifecycle mkdirp@0.5.1~postinstall: mkdirp@0.5.1
+814 silly postinstall ms@2.0.0
+815 info lifecycle ms@2.0.0~postinstall: ms@2.0.0
+816 silly postinstall debug@3.1.0
+817 info lifecycle debug@3.1.0~postinstall: debug@3.1.0
+818 silly postinstall path-is-absolute@1.0.1
+819 info lifecycle path-is-absolute@1.0.1~postinstall: path-is-absolute@1.0.1
+820 silly postinstall supports-color@5.4.0
+821 info lifecycle supports-color@5.4.0~postinstall: supports-color@5.4.0
+822 silly postinstall wrappy@1.0.2
+823 info lifecycle wrappy@1.0.2~postinstall: wrappy@1.0.2
+824 silly postinstall once@1.4.0
+825 info lifecycle once@1.4.0~postinstall: once@1.4.0
+826 silly postinstall inflight@1.0.6
+827 info lifecycle inflight@1.0.6~postinstall: inflight@1.0.6
+828 silly postinstall glob@7.1.2
+829 info lifecycle glob@7.1.2~postinstall: glob@7.1.2
+830 silly postinstall app-module-path@2.2.0
+831 info lifecycle app-module-path@2.2.0~postinstall: app-module-path@2.2.0
+832 silly postinstall mocha@5.2.0
+833 info lifecycle mocha@5.2.0~postinstall: mocha@5.2.0
+834 silly postinstall original-require@1.0.1
+835 info lifecycle original-require@1.0.1~postinstall: original-require@1.0.1
+836 silly postinstall truffle@5.1.33
+837 info lifecycle truffle@5.1.33~postinstall: truffle@5.1.33
+838 verbose lifecycle truffle@5.1.33~postinstall: unsafe-perm in lifecycle false
+839 verbose stack Error: Cannot find module './get-uid-gid.js'
+839 verbose stack     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+839 verbose stack     at Function.resolve (internal/modules/cjs/helpers.js:33:19)
+839 verbose stack     at uidNumber (/usr/lib/nodejs/uid-number/uid-number.js:31:24)
+839 verbose stack     at runCmd (/usr/share/npm/node_modules/npm-lifecycle/index.js:267:5)
+839 verbose stack     at runPackageLifecycle (/usr/share/npm/node_modules/npm-lifecycle/index.js:228:3)
+839 verbose stack     at Array.<anonymous> (/usr/lib/nodejs/slide/lib/bind-actor.js:15:8)
+839 verbose stack     at LOOP (/usr/lib/nodejs/slide/lib/chain.js:15:14)
+839 verbose stack     at chain (/usr/lib/nodejs/slide/lib/chain.js:20:5)
+839 verbose stack     at lifecycle_ (/usr/share/npm/node_modules/npm-lifecycle/index.js:167:3)
+839 verbose stack     at /usr/share/npm/node_modules/npm-lifecycle/index.js:104:9
+839 verbose stack     at /usr/share/npm/node_modules/npm-lifecycle/index.js:218:12
+839 verbose stack     at callback (/usr/share/nodejs/graceful-fs/polyfills.js:295:20)
+839 verbose stack     at FSReqWrap.oncomplete (fs.js:154:5)
+840 verbose cwd /
+841 verbose Linux 5.3.0-51-generic
+842 verbose argv "/usr/bin/node" "/usr/bin/npm" "i" "-g" "truffle"
+843 verbose node v10.19.0
+844 verbose npm  v6.14.4
+845 error code MODULE_NOT_FOUND
+846 error Cannot find module './get-uid-gid.js'
+847 verbose exit [ 1, true ]

@@ -1,0 +1,1706 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'i', '-g', 'ganache-cli' ]
+2 info using npm@6.14.4
+3 info using node@v10.19.0
+4 verbose npm-session 1141634c8806a46f
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/ganache-cli 424ms
+8 http fetch GET 200 https://registry.npmjs.org/ganache-cli/-/ganache-cli-6.9.1.tgz 2309ms
+9 silly pacote tag manifest for ganache-cli@latest fetched in 2788ms
+10 timing stage:loadCurrentTree Completed in 2842ms
+11 silly install loadIdealTree
+12 silly install cloneCurrentTreeToIdealTree
+13 timing stage:loadIdealTree:cloneCurrentTree Completed in 1ms
+14 silly install loadShrinkwrap
+15 timing stage:loadIdealTree:loadShrinkwrap Completed in 3ms
+16 silly install loadAllDepsIntoIdealTree
+17 silly resolveWithNewModule ganache-cli@6.9.1 checking installable status
+18 silly tarball trying https://registry.npmjs.org/ganache-cli/-/ganache-cli-6.9.1.tgz by hash: sha512-VPBumkNUZzXDRQwVOby5YyQpd5t1clkr06xMgB28lZdEIn5ht1GMwUskOTFOAxdkQ4J12IWP0gdeacVRGowqbA==
+19 silly extract https://registry.npmjs.org/ganache-cli/-/ganache-cli-6.9.1.tgz extracted to /tmp/npm-14290-15b3fdd5/unpack-23961455 (2163ms)
+20 silly addBundled read tarball
+21 silly cleanup remove extracted module
+22 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 3336ms
+23 timing stage:loadIdealTree Completed in 3433ms
+24 silly currentTree lib
+25 silly idealTree lib
+25 silly idealTree `-- ganache-cli@6.9.1
+25 silly idealTree   +-- ansi-regex@4.1.0
+25 silly idealTree   +-- ansi-styles@3.2.1
+25 silly idealTree   +-- bindings@1.5.0
+25 silly idealTree   +-- bip66@1.1.5
+25 silly idealTree   +-- bn.js@4.11.8
+25 silly idealTree   +-- brorand@1.1.0
+25 silly idealTree   +-- browserify-aes@1.2.0
+25 silly idealTree   +-- buffer-from@1.1.1
+25 silly idealTree   +-- buffer-xor@1.0.3
+25 silly idealTree   +-- camelcase@5.3.1
+25 silly idealTree   +-- cipher-base@1.0.4
+25 silly idealTree   +-- cliui@5.0.0
+25 silly idealTree   +-- color-convert@1.9.3
+25 silly idealTree   +-- color-name@1.1.3
+25 silly idealTree   +-- create-hash@1.2.0
+25 silly idealTree   +-- create-hmac@1.1.7
+25 silly idealTree   +-- cross-spawn@6.0.5
+25 silly idealTree   +-- decamelize@1.2.0
+25 silly idealTree   +-- drbg.js@1.0.1
+25 silly idealTree   +-- elliptic@6.5.0
+25 silly idealTree   +-- emoji-regex@7.0.3
+25 silly idealTree   +-- end-of-stream@1.4.1
+25 silly idealTree   +-- ethereumjs-util@6.1.0
+25 silly idealTree   +-- ethjs-util@0.1.6
+25 silly idealTree   +-- evp_bytestokey@1.0.3
+25 silly idealTree   +-- execa@1.0.0
+25 silly idealTree   +-- file-uri-to-path@1.0.0
+25 silly idealTree   +-- find-up@3.0.0
+25 silly idealTree   +-- get-caller-file@2.0.5
+25 silly idealTree   +-- get-stream@4.1.0
+25 silly idealTree   +-- hash-base@3.0.4
+25 silly idealTree   +-- hash.js@1.1.7
+25 silly idealTree   +-- hmac-drbg@1.0.1
+25 silly idealTree   +-- inherits@2.0.4
+25 silly idealTree   +-- invert-kv@2.0.0
+25 silly idealTree   +-- is-fullwidth-code-point@2.0.0
+25 silly idealTree   +-- is-hex-prefixed@1.0.0
+25 silly idealTree   +-- is-stream@1.1.0
+25 silly idealTree   +-- isexe@2.0.0
+25 silly idealTree   +-- keccak@1.4.0
+25 silly idealTree   +-- lcid@2.0.0
+25 silly idealTree   +-- locate-path@3.0.0
+25 silly idealTree   +-- map-age-cleaner@0.1.3
+25 silly idealTree   +-- md5.js@1.3.5
+25 silly idealTree   +-- mem@4.3.0
+25 silly idealTree   +-- mimic-fn@2.1.0
+25 silly idealTree   +-- minimalistic-assert@1.0.1
+25 silly idealTree   +-- minimalistic-crypto-utils@1.0.1
+25 silly idealTree   +-- nan@2.14.0
+25 silly idealTree   +-- nice-try@1.0.5
+25 silly idealTree   +-- npm-run-path@2.0.2
+25 silly idealTree   +-- once@1.4.0
+25 silly idealTree   +-- os-locale@3.1.0
+25 silly idealTree   +-- p-defer@1.0.0
+25 silly idealTree   +-- p-finally@1.0.0
+25 silly idealTree   +-- p-is-promise@2.1.0
+25 silly idealTree   +-- p-limit@2.2.0
+25 silly idealTree   +-- p-locate@3.0.0
+25 silly idealTree   +-- p-try@2.2.0
+25 silly idealTree   +-- path-exists@3.0.0
+25 silly idealTree   +-- path-key@2.0.1
+25 silly idealTree   +-- pump@3.0.0
+25 silly idealTree   +-- require-directory@2.1.1
+25 silly idealTree   +-- require-main-filename@2.0.0
+25 silly idealTree   +-- ripemd160@2.0.2
+25 silly idealTree   +-- rlp@2.2.3
+25 silly idealTree   +-- safe-buffer@5.2.0
+25 silly idealTree   +-- secp256k1@3.7.1
+25 silly idealTree   +-- semver@5.7.0
+25 silly idealTree   +-- set-blocking@2.0.0
+25 silly idealTree   +-- sha.js@2.4.11
+25 silly idealTree   +-- shebang-command@1.2.0
+25 silly idealTree   +-- shebang-regex@1.0.0
+25 silly idealTree   +-- signal-exit@3.0.2
+25 silly idealTree   +-- source-map-support@0.5.12
+25 silly idealTree   +-- source-map@0.6.1
+25 silly idealTree   +-- string-width@3.1.0
+25 silly idealTree   +-- strip-ansi@5.2.0
+25 silly idealTree   +-- strip-eof@1.0.0
+25 silly idealTree   +-- strip-hex-prefix@1.0.0
+25 silly idealTree   +-- which-module@2.0.0
+25 silly idealTree   +-- which@1.3.1
+25 silly idealTree   +-- wrap-ansi@5.1.0
+25 silly idealTree   +-- wrappy@1.0.2
+25 silly idealTree   +-- y18n@4.0.0
+25 silly idealTree   +-- yargs-parser@13.1.1
+25 silly idealTree   `-- yargs@13.2.4
+26 silly install generateActionsToTake
+27 timing stage:generateActionsToTake Completed in 52ms
+28 silly diffTrees action count 88
+29 silly diffTrees add ansi-regex@4.1.0
+30 silly diffTrees add bn.js@4.11.8
+31 silly diffTrees add brorand@1.1.0
+32 silly diffTrees add buffer-from@1.1.1
+33 silly diffTrees add buffer-xor@1.0.3
+34 silly diffTrees add camelcase@5.3.1
+35 silly diffTrees add color-name@1.1.3
+36 silly diffTrees add color-convert@1.9.3
+37 silly diffTrees add ansi-styles@3.2.1
+38 silly diffTrees add decamelize@1.2.0
+39 silly diffTrees add emoji-regex@7.0.3
+40 silly diffTrees add file-uri-to-path@1.0.0
+41 silly diffTrees add bindings@1.5.0
+42 silly diffTrees add get-caller-file@2.0.5
+43 silly diffTrees add inherits@2.0.4
+44 silly diffTrees add invert-kv@2.0.0
+45 silly diffTrees add is-fullwidth-code-point@2.0.0
+46 silly diffTrees add is-hex-prefixed@1.0.0
+47 silly diffTrees add is-stream@1.1.0
+48 silly diffTrees add isexe@2.0.0
+49 silly diffTrees add lcid@2.0.0
+50 silly diffTrees add mimic-fn@2.1.0
+51 silly diffTrees add minimalistic-assert@1.0.1
+52 silly diffTrees add hash.js@1.1.7
+53 silly diffTrees add minimalistic-crypto-utils@1.0.1
+54 silly diffTrees add hmac-drbg@1.0.1
+55 silly diffTrees add elliptic@6.5.0
+56 silly diffTrees add nan@2.14.0
+57 silly diffTrees add nice-try@1.0.5
+58 silly diffTrees add p-defer@1.0.0
+59 silly diffTrees add map-age-cleaner@0.1.3
+60 silly diffTrees add p-finally@1.0.0
+61 silly diffTrees add p-is-promise@2.1.0
+62 silly diffTrees add mem@4.3.0
+63 silly diffTrees add p-try@2.2.0
+64 silly diffTrees add p-limit@2.2.0
+65 silly diffTrees add p-locate@3.0.0
+66 silly diffTrees add path-exists@3.0.0
+67 silly diffTrees add locate-path@3.0.0
+68 silly diffTrees add find-up@3.0.0
+69 silly diffTrees add path-key@2.0.1
+70 silly diffTrees add npm-run-path@2.0.2
+71 silly diffTrees add require-directory@2.1.1
+72 silly diffTrees add require-main-filename@2.0.0
+73 silly diffTrees add safe-buffer@5.2.0
+74 silly diffTrees add bip66@1.1.5
+75 silly diffTrees add cipher-base@1.0.4
+76 silly diffTrees add hash-base@3.0.4
+77 silly diffTrees add ripemd160@2.0.2
+78 silly diffTrees add keccak@1.4.0
+79 silly diffTrees add md5.js@1.3.5
+80 silly diffTrees add evp_bytestokey@1.0.3
+81 silly diffTrees add rlp@2.2.3
+82 silly diffTrees add semver@5.7.0
+83 silly diffTrees add set-blocking@2.0.0
+84 silly diffTrees add sha.js@2.4.11
+85 silly diffTrees add create-hash@1.2.0
+86 silly diffTrees add browserify-aes@1.2.0
+87 silly diffTrees add create-hmac@1.1.7
+88 silly diffTrees add drbg.js@1.0.1
+89 silly diffTrees add secp256k1@3.7.1
+90 silly diffTrees add shebang-regex@1.0.0
+91 silly diffTrees add shebang-command@1.2.0
+92 silly diffTrees add signal-exit@3.0.2
+93 silly diffTrees add source-map@0.6.1
+94 silly diffTrees add strip-ansi@5.2.0
+95 silly diffTrees add string-width@3.1.0
+96 silly diffTrees add strip-eof@1.0.0
+97 silly diffTrees add strip-hex-prefix@1.0.0
+98 silly diffTrees add ethjs-util@0.1.6
+99 silly diffTrees add which@1.3.1
+100 silly diffTrees add cross-spawn@6.0.5
+101 silly diffTrees add which-module@2.0.0
+102 silly diffTrees add wrap-ansi@5.1.0
+103 silly diffTrees add cliui@5.0.0
+104 silly diffTrees add wrappy@1.0.2
+105 silly diffTrees add once@1.4.0
+106 silly diffTrees add end-of-stream@1.4.1
+107 silly diffTrees add pump@3.0.0
+108 silly diffTrees add get-stream@4.1.0
+109 silly diffTrees add execa@1.0.0
+110 silly diffTrees add os-locale@3.1.0
+111 silly diffTrees add y18n@4.0.0
+112 silly diffTrees add yargs-parser@13.1.1
+113 silly diffTrees add ethereumjs-util@6.1.0
+114 silly diffTrees add source-map-support@0.5.12
+115 silly diffTrees add yargs@13.2.4
+116 silly diffTrees add ganache-cli@6.9.1
+117 silly decomposeActions action count 530
+118 silly decomposeActions fetch ganache-cli@6.9.1
+119 silly decomposeActions extract ganache-cli@6.9.1
+120 silly decomposeActions preinstall ansi-regex@4.1.0
+121 silly decomposeActions build ansi-regex@4.1.0
+122 silly decomposeActions install ansi-regex@4.1.0
+123 silly decomposeActions postinstall ansi-regex@4.1.0
+124 silly decomposeActions finalize ansi-regex@4.1.0
+125 silly decomposeActions refresh-package-json ansi-regex@4.1.0
+126 silly decomposeActions preinstall bn.js@4.11.8
+127 silly decomposeActions build bn.js@4.11.8
+128 silly decomposeActions install bn.js@4.11.8
+129 silly decomposeActions postinstall bn.js@4.11.8
+130 silly decomposeActions finalize bn.js@4.11.8
+131 silly decomposeActions refresh-package-json bn.js@4.11.8
+132 silly decomposeActions preinstall brorand@1.1.0
+133 silly decomposeActions build brorand@1.1.0
+134 silly decomposeActions install brorand@1.1.0
+135 silly decomposeActions postinstall brorand@1.1.0
+136 silly decomposeActions finalize brorand@1.1.0
+137 silly decomposeActions refresh-package-json brorand@1.1.0
+138 silly decomposeActions preinstall buffer-from@1.1.1
+139 silly decomposeActions build buffer-from@1.1.1
+140 silly decomposeActions install buffer-from@1.1.1
+141 silly decomposeActions postinstall buffer-from@1.1.1
+142 silly decomposeActions finalize buffer-from@1.1.1
+143 silly decomposeActions refresh-package-json buffer-from@1.1.1
+144 silly decomposeActions preinstall buffer-xor@1.0.3
+145 silly decomposeActions build buffer-xor@1.0.3
+146 silly decomposeActions install buffer-xor@1.0.3
+147 silly decomposeActions postinstall buffer-xor@1.0.3
+148 silly decomposeActions finalize buffer-xor@1.0.3
+149 silly decomposeActions refresh-package-json buffer-xor@1.0.3
+150 silly decomposeActions preinstall camelcase@5.3.1
+151 silly decomposeActions build camelcase@5.3.1
+152 silly decomposeActions install camelcase@5.3.1
+153 silly decomposeActions postinstall camelcase@5.3.1
+154 silly decomposeActions finalize camelcase@5.3.1
+155 silly decomposeActions refresh-package-json camelcase@5.3.1
+156 silly decomposeActions preinstall color-name@1.1.3
+157 silly decomposeActions build color-name@1.1.3
+158 silly decomposeActions install color-name@1.1.3
+159 silly decomposeActions postinstall color-name@1.1.3
+160 silly decomposeActions finalize color-name@1.1.3
+161 silly decomposeActions refresh-package-json color-name@1.1.3
+162 silly decomposeActions preinstall color-convert@1.9.3
+163 silly decomposeActions build color-convert@1.9.3
+164 silly decomposeActions install color-convert@1.9.3
+165 silly decomposeActions postinstall color-convert@1.9.3
+166 silly decomposeActions finalize color-convert@1.9.3
+167 silly decomposeActions refresh-package-json color-convert@1.9.3
+168 silly decomposeActions preinstall ansi-styles@3.2.1
+169 silly decomposeActions build ansi-styles@3.2.1
+170 silly decomposeActions install ansi-styles@3.2.1
+171 silly decomposeActions postinstall ansi-styles@3.2.1
+172 silly decomposeActions finalize ansi-styles@3.2.1
+173 silly decomposeActions refresh-package-json ansi-styles@3.2.1
+174 silly decomposeActions preinstall decamelize@1.2.0
+175 silly decomposeActions build decamelize@1.2.0
+176 silly decomposeActions install decamelize@1.2.0
+177 silly decomposeActions postinstall decamelize@1.2.0
+178 silly decomposeActions finalize decamelize@1.2.0
+179 silly decomposeActions refresh-package-json decamelize@1.2.0
+180 silly decomposeActions preinstall emoji-regex@7.0.3
+181 silly decomposeActions build emoji-regex@7.0.3
+182 silly decomposeActions install emoji-regex@7.0.3
+183 silly decomposeActions postinstall emoji-regex@7.0.3
+184 silly decomposeActions finalize emoji-regex@7.0.3
+185 silly decomposeActions refresh-package-json emoji-regex@7.0.3
+186 silly decomposeActions preinstall file-uri-to-path@1.0.0
+187 silly decomposeActions build file-uri-to-path@1.0.0
+188 silly decomposeActions install file-uri-to-path@1.0.0
+189 silly decomposeActions postinstall file-uri-to-path@1.0.0
+190 silly decomposeActions finalize file-uri-to-path@1.0.0
+191 silly decomposeActions refresh-package-json file-uri-to-path@1.0.0
+192 silly decomposeActions preinstall bindings@1.5.0
+193 silly decomposeActions build bindings@1.5.0
+194 silly decomposeActions install bindings@1.5.0
+195 silly decomposeActions postinstall bindings@1.5.0
+196 silly decomposeActions finalize bindings@1.5.0
+197 silly decomposeActions refresh-package-json bindings@1.5.0
+198 silly decomposeActions preinstall get-caller-file@2.0.5
+199 silly decomposeActions build get-caller-file@2.0.5
+200 silly decomposeActions install get-caller-file@2.0.5
+201 silly decomposeActions postinstall get-caller-file@2.0.5
+202 silly decomposeActions finalize get-caller-file@2.0.5
+203 silly decomposeActions refresh-package-json get-caller-file@2.0.5
+204 silly decomposeActions preinstall inherits@2.0.4
+205 silly decomposeActions build inherits@2.0.4
+206 silly decomposeActions install inherits@2.0.4
+207 silly decomposeActions postinstall inherits@2.0.4
+208 silly decomposeActions finalize inherits@2.0.4
+209 silly decomposeActions refresh-package-json inherits@2.0.4
+210 silly decomposeActions preinstall invert-kv@2.0.0
+211 silly decomposeActions build invert-kv@2.0.0
+212 silly decomposeActions install invert-kv@2.0.0
+213 silly decomposeActions postinstall invert-kv@2.0.0
+214 silly decomposeActions finalize invert-kv@2.0.0
+215 silly decomposeActions refresh-package-json invert-kv@2.0.0
+216 silly decomposeActions preinstall is-fullwidth-code-point@2.0.0
+217 silly decomposeActions build is-fullwidth-code-point@2.0.0
+218 silly decomposeActions install is-fullwidth-code-point@2.0.0
+219 silly decomposeActions postinstall is-fullwidth-code-point@2.0.0
+220 silly decomposeActions finalize is-fullwidth-code-point@2.0.0
+221 silly decomposeActions refresh-package-json is-fullwidth-code-point@2.0.0
+222 silly decomposeActions preinstall is-hex-prefixed@1.0.0
+223 silly decomposeActions build is-hex-prefixed@1.0.0
+224 silly decomposeActions install is-hex-prefixed@1.0.0
+225 silly decomposeActions postinstall is-hex-prefixed@1.0.0
+226 silly decomposeActions finalize is-hex-prefixed@1.0.0
+227 silly decomposeActions refresh-package-json is-hex-prefixed@1.0.0
+228 silly decomposeActions preinstall is-stream@1.1.0
+229 silly decomposeActions build is-stream@1.1.0
+230 silly decomposeActions install is-stream@1.1.0
+231 silly decomposeActions postinstall is-stream@1.1.0
+232 silly decomposeActions finalize is-stream@1.1.0
+233 silly decomposeActions refresh-package-json is-stream@1.1.0
+234 silly decomposeActions preinstall isexe@2.0.0
+235 silly decomposeActions build isexe@2.0.0
+236 silly decomposeActions install isexe@2.0.0
+237 silly decomposeActions postinstall isexe@2.0.0
+238 silly decomposeActions finalize isexe@2.0.0
+239 silly decomposeActions refresh-package-json isexe@2.0.0
+240 silly decomposeActions preinstall lcid@2.0.0
+241 silly decomposeActions build lcid@2.0.0
+242 silly decomposeActions install lcid@2.0.0
+243 silly decomposeActions postinstall lcid@2.0.0
+244 silly decomposeActions finalize lcid@2.0.0
+245 silly decomposeActions refresh-package-json lcid@2.0.0
+246 silly decomposeActions preinstall mimic-fn@2.1.0
+247 silly decomposeActions build mimic-fn@2.1.0
+248 silly decomposeActions install mimic-fn@2.1.0
+249 silly decomposeActions postinstall mimic-fn@2.1.0
+250 silly decomposeActions finalize mimic-fn@2.1.0
+251 silly decomposeActions refresh-package-json mimic-fn@2.1.0
+252 silly decomposeActions preinstall minimalistic-assert@1.0.1
+253 silly decomposeActions build minimalistic-assert@1.0.1
+254 silly decomposeActions install minimalistic-assert@1.0.1
+255 silly decomposeActions postinstall minimalistic-assert@1.0.1
+256 silly decomposeActions finalize minimalistic-assert@1.0.1
+257 silly decomposeActions refresh-package-json minimalistic-assert@1.0.1
+258 silly decomposeActions preinstall hash.js@1.1.7
+259 silly decomposeActions build hash.js@1.1.7
+260 silly decomposeActions install hash.js@1.1.7
+261 silly decomposeActions postinstall hash.js@1.1.7
+262 silly decomposeActions finalize hash.js@1.1.7
+263 silly decomposeActions refresh-package-json hash.js@1.1.7
+264 silly decomposeActions preinstall minimalistic-crypto-utils@1.0.1
+265 silly decomposeActions build minimalistic-crypto-utils@1.0.1
+266 silly decomposeActions install minimalistic-crypto-utils@1.0.1
+267 silly decomposeActions postinstall minimalistic-crypto-utils@1.0.1
+268 silly decomposeActions finalize minimalistic-crypto-utils@1.0.1
+269 silly decomposeActions refresh-package-json minimalistic-crypto-utils@1.0.1
+270 silly decomposeActions preinstall hmac-drbg@1.0.1
+271 silly decomposeActions build hmac-drbg@1.0.1
+272 silly decomposeActions install hmac-drbg@1.0.1
+273 silly decomposeActions postinstall hmac-drbg@1.0.1
+274 silly decomposeActions finalize hmac-drbg@1.0.1
+275 silly decomposeActions refresh-package-json hmac-drbg@1.0.1
+276 silly decomposeActions preinstall elliptic@6.5.0
+277 silly decomposeActions build elliptic@6.5.0
+278 silly decomposeActions install elliptic@6.5.0
+279 silly decomposeActions postinstall elliptic@6.5.0
+280 silly decomposeActions finalize elliptic@6.5.0
+281 silly decomposeActions refresh-package-json elliptic@6.5.0
+282 silly decomposeActions preinstall nan@2.14.0
+283 silly decomposeActions build nan@2.14.0
+284 silly decomposeActions install nan@2.14.0
+285 silly decomposeActions postinstall nan@2.14.0
+286 silly decomposeActions finalize nan@2.14.0
+287 silly decomposeActions refresh-package-json nan@2.14.0
+288 silly decomposeActions preinstall nice-try@1.0.5
+289 silly decomposeActions build nice-try@1.0.5
+290 silly decomposeActions install nice-try@1.0.5
+291 silly decomposeActions postinstall nice-try@1.0.5
+292 silly decomposeActions finalize nice-try@1.0.5
+293 silly decomposeActions refresh-package-json nice-try@1.0.5
+294 silly decomposeActions preinstall p-defer@1.0.0
+295 silly decomposeActions build p-defer@1.0.0
+296 silly decomposeActions install p-defer@1.0.0
+297 silly decomposeActions postinstall p-defer@1.0.0
+298 silly decomposeActions finalize p-defer@1.0.0
+299 silly decomposeActions refresh-package-json p-defer@1.0.0
+300 silly decomposeActions preinstall map-age-cleaner@0.1.3
+301 silly decomposeActions build map-age-cleaner@0.1.3
+302 silly decomposeActions install map-age-cleaner@0.1.3
+303 silly decomposeActions postinstall map-age-cleaner@0.1.3
+304 silly decomposeActions finalize map-age-cleaner@0.1.3
+305 silly decomposeActions refresh-package-json map-age-cleaner@0.1.3
+306 silly decomposeActions preinstall p-finally@1.0.0
+307 silly decomposeActions build p-finally@1.0.0
+308 silly decomposeActions install p-finally@1.0.0
+309 silly decomposeActions postinstall p-finally@1.0.0
+310 silly decomposeActions finalize p-finally@1.0.0
+311 silly decomposeActions refresh-package-json p-finally@1.0.0
+312 silly decomposeActions preinstall p-is-promise@2.1.0
+313 silly decomposeActions build p-is-promise@2.1.0
+314 silly decomposeActions install p-is-promise@2.1.0
+315 silly decomposeActions postinstall p-is-promise@2.1.0
+316 silly decomposeActions finalize p-is-promise@2.1.0
+317 silly decomposeActions refresh-package-json p-is-promise@2.1.0
+318 silly decomposeActions preinstall mem@4.3.0
+319 silly decomposeActions build mem@4.3.0
+320 silly decomposeActions install mem@4.3.0
+321 silly decomposeActions postinstall mem@4.3.0
+322 silly decomposeActions finalize mem@4.3.0
+323 silly decomposeActions refresh-package-json mem@4.3.0
+324 silly decomposeActions preinstall p-try@2.2.0
+325 silly decomposeActions build p-try@2.2.0
+326 silly decomposeActions install p-try@2.2.0
+327 silly decomposeActions postinstall p-try@2.2.0
+328 silly decomposeActions finalize p-try@2.2.0
+329 silly decomposeActions refresh-package-json p-try@2.2.0
+330 silly decomposeActions preinstall p-limit@2.2.0
+331 silly decomposeActions build p-limit@2.2.0
+332 silly decomposeActions install p-limit@2.2.0
+333 silly decomposeActions postinstall p-limit@2.2.0
+334 silly decomposeActions finalize p-limit@2.2.0
+335 silly decomposeActions refresh-package-json p-limit@2.2.0
+336 silly decomposeActions preinstall p-locate@3.0.0
+337 silly decomposeActions build p-locate@3.0.0
+338 silly decomposeActions install p-locate@3.0.0
+339 silly decomposeActions postinstall p-locate@3.0.0
+340 silly decomposeActions finalize p-locate@3.0.0
+341 silly decomposeActions refresh-package-json p-locate@3.0.0
+342 silly decomposeActions preinstall path-exists@3.0.0
+343 silly decomposeActions build path-exists@3.0.0
+344 silly decomposeActions install path-exists@3.0.0
+345 silly decomposeActions postinstall path-exists@3.0.0
+346 silly decomposeActions finalize path-exists@3.0.0
+347 silly decomposeActions refresh-package-json path-exists@3.0.0
+348 silly decomposeActions preinstall locate-path@3.0.0
+349 silly decomposeActions build locate-path@3.0.0
+350 silly decomposeActions install locate-path@3.0.0
+351 silly decomposeActions postinstall locate-path@3.0.0
+352 silly decomposeActions finalize locate-path@3.0.0
+353 silly decomposeActions refresh-package-json locate-path@3.0.0
+354 silly decomposeActions preinstall find-up@3.0.0
+355 silly decomposeActions build find-up@3.0.0
+356 silly decomposeActions install find-up@3.0.0
+357 silly decomposeActions postinstall find-up@3.0.0
+358 silly decomposeActions finalize find-up@3.0.0
+359 silly decomposeActions refresh-package-json find-up@3.0.0
+360 silly decomposeActions preinstall path-key@2.0.1
+361 silly decomposeActions build path-key@2.0.1
+362 silly decomposeActions install path-key@2.0.1
+363 silly decomposeActions postinstall path-key@2.0.1
+364 silly decomposeActions finalize path-key@2.0.1
+365 silly decomposeActions refresh-package-json path-key@2.0.1
+366 silly decomposeActions preinstall npm-run-path@2.0.2
+367 silly decomposeActions build npm-run-path@2.0.2
+368 silly decomposeActions install npm-run-path@2.0.2
+369 silly decomposeActions postinstall npm-run-path@2.0.2
+370 silly decomposeActions finalize npm-run-path@2.0.2
+371 silly decomposeActions refresh-package-json npm-run-path@2.0.2
+372 silly decomposeActions preinstall require-directory@2.1.1
+373 silly decomposeActions build require-directory@2.1.1
+374 silly decomposeActions install require-directory@2.1.1
+375 silly decomposeActions postinstall require-directory@2.1.1
+376 silly decomposeActions finalize require-directory@2.1.1
+377 silly decomposeActions refresh-package-json require-directory@2.1.1
+378 silly decomposeActions preinstall require-main-filename@2.0.0
+379 silly decomposeActions build require-main-filename@2.0.0
+380 silly decomposeActions install require-main-filename@2.0.0
+381 silly decomposeActions postinstall require-main-filename@2.0.0
+382 silly decomposeActions finalize require-main-filename@2.0.0
+383 silly decomposeActions refresh-package-json require-main-filename@2.0.0
+384 silly decomposeActions preinstall safe-buffer@5.2.0
+385 silly decomposeActions build safe-buffer@5.2.0
+386 silly decomposeActions install safe-buffer@5.2.0
+387 silly decomposeActions postinstall safe-buffer@5.2.0
+388 silly decomposeActions finalize safe-buffer@5.2.0
+389 silly decomposeActions refresh-package-json safe-buffer@5.2.0
+390 silly decomposeActions preinstall bip66@1.1.5
+391 silly decomposeActions build bip66@1.1.5
+392 silly decomposeActions install bip66@1.1.5
+393 silly decomposeActions postinstall bip66@1.1.5
+394 silly decomposeActions finalize bip66@1.1.5
+395 silly decomposeActions refresh-package-json bip66@1.1.5
+396 silly decomposeActions preinstall cipher-base@1.0.4
+397 silly decomposeActions build cipher-base@1.0.4
+398 silly decomposeActions install cipher-base@1.0.4
+399 silly decomposeActions postinstall cipher-base@1.0.4
+400 silly decomposeActions finalize cipher-base@1.0.4
+401 silly decomposeActions refresh-package-json cipher-base@1.0.4
+402 silly decomposeActions preinstall hash-base@3.0.4
+403 silly decomposeActions build hash-base@3.0.4
+404 silly decomposeActions install hash-base@3.0.4
+405 silly decomposeActions postinstall hash-base@3.0.4
+406 silly decomposeActions finalize hash-base@3.0.4
+407 silly decomposeActions refresh-package-json hash-base@3.0.4
+408 silly decomposeActions preinstall ripemd160@2.0.2
+409 silly decomposeActions build ripemd160@2.0.2
+410 silly decomposeActions install ripemd160@2.0.2
+411 silly decomposeActions postinstall ripemd160@2.0.2
+412 silly decomposeActions finalize ripemd160@2.0.2
+413 silly decomposeActions refresh-package-json ripemd160@2.0.2
+414 silly decomposeActions preinstall keccak@1.4.0
+415 silly decomposeActions build keccak@1.4.0
+416 silly decomposeActions install keccak@1.4.0
+417 silly decomposeActions postinstall keccak@1.4.0
+418 silly decomposeActions finalize keccak@1.4.0
+419 silly decomposeActions refresh-package-json keccak@1.4.0
+420 silly decomposeActions preinstall md5.js@1.3.5
+421 silly decomposeActions build md5.js@1.3.5
+422 silly decomposeActions install md5.js@1.3.5
+423 silly decomposeActions postinstall md5.js@1.3.5
+424 silly decomposeActions finalize md5.js@1.3.5
+425 silly decomposeActions refresh-package-json md5.js@1.3.5
+426 silly decomposeActions preinstall evp_bytestokey@1.0.3
+427 silly decomposeActions build evp_bytestokey@1.0.3
+428 silly decomposeActions install evp_bytestokey@1.0.3
+429 silly decomposeActions postinstall evp_bytestokey@1.0.3
+430 silly decomposeActions finalize evp_bytestokey@1.0.3
+431 silly decomposeActions refresh-package-json evp_bytestokey@1.0.3
+432 silly decomposeActions preinstall rlp@2.2.3
+433 silly decomposeActions build rlp@2.2.3
+434 silly decomposeActions install rlp@2.2.3
+435 silly decomposeActions postinstall rlp@2.2.3
+436 silly decomposeActions finalize rlp@2.2.3
+437 silly decomposeActions refresh-package-json rlp@2.2.3
+438 silly decomposeActions preinstall semver@5.7.0
+439 silly decomposeActions build semver@5.7.0
+440 silly decomposeActions install semver@5.7.0
+441 silly decomposeActions postinstall semver@5.7.0
+442 silly decomposeActions finalize semver@5.7.0
+443 silly decomposeActions refresh-package-json semver@5.7.0
+444 silly decomposeActions preinstall set-blocking@2.0.0
+445 silly decomposeActions build set-blocking@2.0.0
+446 silly decomposeActions install set-blocking@2.0.0
+447 silly decomposeActions postinstall set-blocking@2.0.0
+448 silly decomposeActions finalize set-blocking@2.0.0
+449 silly decomposeActions refresh-package-json set-blocking@2.0.0
+450 silly decomposeActions preinstall sha.js@2.4.11
+451 silly decomposeActions build sha.js@2.4.11
+452 silly decomposeActions install sha.js@2.4.11
+453 silly decomposeActions postinstall sha.js@2.4.11
+454 silly decomposeActions finalize sha.js@2.4.11
+455 silly decomposeActions refresh-package-json sha.js@2.4.11
+456 silly decomposeActions preinstall create-hash@1.2.0
+457 silly decomposeActions build create-hash@1.2.0
+458 silly decomposeActions install create-hash@1.2.0
+459 silly decomposeActions postinstall create-hash@1.2.0
+460 silly decomposeActions finalize create-hash@1.2.0
+461 silly decomposeActions refresh-package-json create-hash@1.2.0
+462 silly decomposeActions preinstall browserify-aes@1.2.0
+463 silly decomposeActions build browserify-aes@1.2.0
+464 silly decomposeActions install browserify-aes@1.2.0
+465 silly decomposeActions postinstall browserify-aes@1.2.0
+466 silly decomposeActions finalize browserify-aes@1.2.0
+467 silly decomposeActions refresh-package-json browserify-aes@1.2.0
+468 silly decomposeActions preinstall create-hmac@1.1.7
+469 silly decomposeActions build create-hmac@1.1.7
+470 silly decomposeActions install create-hmac@1.1.7
+471 silly decomposeActions postinstall create-hmac@1.1.7
+472 silly decomposeActions finalize create-hmac@1.1.7
+473 silly decomposeActions refresh-package-json create-hmac@1.1.7
+474 silly decomposeActions preinstall drbg.js@1.0.1
+475 silly decomposeActions build drbg.js@1.0.1
+476 silly decomposeActions install drbg.js@1.0.1
+477 silly decomposeActions postinstall drbg.js@1.0.1
+478 silly decomposeActions finalize drbg.js@1.0.1
+479 silly decomposeActions refresh-package-json drbg.js@1.0.1
+480 silly decomposeActions preinstall secp256k1@3.7.1
+481 silly decomposeActions build secp256k1@3.7.1
+482 silly decomposeActions install secp256k1@3.7.1
+483 silly decomposeActions postinstall secp256k1@3.7.1
+484 silly decomposeActions finalize secp256k1@3.7.1
+485 silly decomposeActions refresh-package-json secp256k1@3.7.1
+486 silly decomposeActions preinstall shebang-regex@1.0.0
+487 silly decomposeActions build shebang-regex@1.0.0
+488 silly decomposeActions install shebang-regex@1.0.0
+489 silly decomposeActions postinstall shebang-regex@1.0.0
+490 silly decomposeActions finalize shebang-regex@1.0.0
+491 silly decomposeActions refresh-package-json shebang-regex@1.0.0
+492 silly decomposeActions preinstall shebang-command@1.2.0
+493 silly decomposeActions build shebang-command@1.2.0
+494 silly decomposeActions install shebang-command@1.2.0
+495 silly decomposeActions postinstall shebang-command@1.2.0
+496 silly decomposeActions finalize shebang-command@1.2.0
+497 silly decomposeActions refresh-package-json shebang-command@1.2.0
+498 silly decomposeActions preinstall signal-exit@3.0.2
+499 silly decomposeActions build signal-exit@3.0.2
+500 silly decomposeActions install signal-exit@3.0.2
+501 silly decomposeActions postinstall signal-exit@3.0.2
+502 silly decomposeActions finalize signal-exit@3.0.2
+503 silly decomposeActions refresh-package-json signal-exit@3.0.2
+504 silly decomposeActions preinstall source-map@0.6.1
+505 silly decomposeActions build source-map@0.6.1
+506 silly decomposeActions install source-map@0.6.1
+507 silly decomposeActions postinstall source-map@0.6.1
+508 silly decomposeActions finalize source-map@0.6.1
+509 silly decomposeActions refresh-package-json source-map@0.6.1
+510 silly decomposeActions preinstall strip-ansi@5.2.0
+511 silly decomposeActions build strip-ansi@5.2.0
+512 silly decomposeActions install strip-ansi@5.2.0
+513 silly decomposeActions postinstall strip-ansi@5.2.0
+514 silly decomposeActions finalize strip-ansi@5.2.0
+515 silly decomposeActions refresh-package-json strip-ansi@5.2.0
+516 silly decomposeActions preinstall string-width@3.1.0
+517 silly decomposeActions build string-width@3.1.0
+518 silly decomposeActions install string-width@3.1.0
+519 silly decomposeActions postinstall string-width@3.1.0
+520 silly decomposeActions finalize string-width@3.1.0
+521 silly decomposeActions refresh-package-json string-width@3.1.0
+522 silly decomposeActions preinstall strip-eof@1.0.0
+523 silly decomposeActions build strip-eof@1.0.0
+524 silly decomposeActions install strip-eof@1.0.0
+525 silly decomposeActions postinstall strip-eof@1.0.0
+526 silly decomposeActions finalize strip-eof@1.0.0
+527 silly decomposeActions refresh-package-json strip-eof@1.0.0
+528 silly decomposeActions preinstall strip-hex-prefix@1.0.0
+529 silly decomposeActions build strip-hex-prefix@1.0.0
+530 silly decomposeActions install strip-hex-prefix@1.0.0
+531 silly decomposeActions postinstall strip-hex-prefix@1.0.0
+532 silly decomposeActions finalize strip-hex-prefix@1.0.0
+533 silly decomposeActions refresh-package-json strip-hex-prefix@1.0.0
+534 silly decomposeActions preinstall ethjs-util@0.1.6
+535 silly decomposeActions build ethjs-util@0.1.6
+536 silly decomposeActions install ethjs-util@0.1.6
+537 silly decomposeActions postinstall ethjs-util@0.1.6
+538 silly decomposeActions finalize ethjs-util@0.1.6
+539 silly decomposeActions refresh-package-json ethjs-util@0.1.6
+540 silly decomposeActions preinstall which@1.3.1
+541 silly decomposeActions build which@1.3.1
+542 silly decomposeActions install which@1.3.1
+543 silly decomposeActions postinstall which@1.3.1
+544 silly decomposeActions finalize which@1.3.1
+545 silly decomposeActions refresh-package-json which@1.3.1
+546 silly decomposeActions preinstall cross-spawn@6.0.5
+547 silly decomposeActions build cross-spawn@6.0.5
+548 silly decomposeActions install cross-spawn@6.0.5
+549 silly decomposeActions postinstall cross-spawn@6.0.5
+550 silly decomposeActions finalize cross-spawn@6.0.5
+551 silly decomposeActions refresh-package-json cross-spawn@6.0.5
+552 silly decomposeActions preinstall which-module@2.0.0
+553 silly decomposeActions build which-module@2.0.0
+554 silly decomposeActions install which-module@2.0.0
+555 silly decomposeActions postinstall which-module@2.0.0
+556 silly decomposeActions finalize which-module@2.0.0
+557 silly decomposeActions refresh-package-json which-module@2.0.0
+558 silly decomposeActions preinstall wrap-ansi@5.1.0
+559 silly decomposeActions build wrap-ansi@5.1.0
+560 silly decomposeActions install wrap-ansi@5.1.0
+561 silly decomposeActions postinstall wrap-ansi@5.1.0
+562 silly decomposeActions finalize wrap-ansi@5.1.0
+563 silly decomposeActions refresh-package-json wrap-ansi@5.1.0
+564 silly decomposeActions preinstall cliui@5.0.0
+565 silly decomposeActions build cliui@5.0.0
+566 silly decomposeActions install cliui@5.0.0
+567 silly decomposeActions postinstall cliui@5.0.0
+568 silly decomposeActions finalize cliui@5.0.0
+569 silly decomposeActions refresh-package-json cliui@5.0.0
+570 silly decomposeActions preinstall wrappy@1.0.2
+571 silly decomposeActions build wrappy@1.0.2
+572 silly decomposeActions install wrappy@1.0.2
+573 silly decomposeActions postinstall wrappy@1.0.2
+574 silly decomposeActions finalize wrappy@1.0.2
+575 silly decomposeActions refresh-package-json wrappy@1.0.2
+576 silly decomposeActions preinstall once@1.4.0
+577 silly decomposeActions build once@1.4.0
+578 silly decomposeActions install once@1.4.0
+579 silly decomposeActions postinstall once@1.4.0
+580 silly decomposeActions finalize once@1.4.0
+581 silly decomposeActions refresh-package-json once@1.4.0
+582 silly decomposeActions preinstall end-of-stream@1.4.1
+583 silly decomposeActions build end-of-stream@1.4.1
+584 silly decomposeActions install end-of-stream@1.4.1
+585 silly decomposeActions postinstall end-of-stream@1.4.1
+586 silly decomposeActions finalize end-of-stream@1.4.1
+587 silly decomposeActions refresh-package-json end-of-stream@1.4.1
+588 silly decomposeActions preinstall pump@3.0.0
+589 silly decomposeActions build pump@3.0.0
+590 silly decomposeActions install pump@3.0.0
+591 silly decomposeActions postinstall pump@3.0.0
+592 silly decomposeActions finalize pump@3.0.0
+593 silly decomposeActions refresh-package-json pump@3.0.0
+594 silly decomposeActions preinstall get-stream@4.1.0
+595 silly decomposeActions build get-stream@4.1.0
+596 silly decomposeActions install get-stream@4.1.0
+597 silly decomposeActions postinstall get-stream@4.1.0
+598 silly decomposeActions finalize get-stream@4.1.0
+599 silly decomposeActions refresh-package-json get-stream@4.1.0
+600 silly decomposeActions preinstall execa@1.0.0
+601 silly decomposeActions build execa@1.0.0
+602 silly decomposeActions install execa@1.0.0
+603 silly decomposeActions postinstall execa@1.0.0
+604 silly decomposeActions finalize execa@1.0.0
+605 silly decomposeActions refresh-package-json execa@1.0.0
+606 silly decomposeActions preinstall os-locale@3.1.0
+607 silly decomposeActions build os-locale@3.1.0
+608 silly decomposeActions install os-locale@3.1.0
+609 silly decomposeActions postinstall os-locale@3.1.0
+610 silly decomposeActions finalize os-locale@3.1.0
+611 silly decomposeActions refresh-package-json os-locale@3.1.0
+612 silly decomposeActions preinstall y18n@4.0.0
+613 silly decomposeActions build y18n@4.0.0
+614 silly decomposeActions install y18n@4.0.0
+615 silly decomposeActions postinstall y18n@4.0.0
+616 silly decomposeActions finalize y18n@4.0.0
+617 silly decomposeActions refresh-package-json y18n@4.0.0
+618 silly decomposeActions preinstall yargs-parser@13.1.1
+619 silly decomposeActions build yargs-parser@13.1.1
+620 silly decomposeActions install yargs-parser@13.1.1
+621 silly decomposeActions postinstall yargs-parser@13.1.1
+622 silly decomposeActions finalize yargs-parser@13.1.1
+623 silly decomposeActions refresh-package-json yargs-parser@13.1.1
+624 silly decomposeActions preinstall ethereumjs-util@6.1.0
+625 silly decomposeActions build ethereumjs-util@6.1.0
+626 silly decomposeActions install ethereumjs-util@6.1.0
+627 silly decomposeActions postinstall ethereumjs-util@6.1.0
+628 silly decomposeActions finalize ethereumjs-util@6.1.0
+629 silly decomposeActions refresh-package-json ethereumjs-util@6.1.0
+630 silly decomposeActions preinstall source-map-support@0.5.12
+631 silly decomposeActions build source-map-support@0.5.12
+632 silly decomposeActions install source-map-support@0.5.12
+633 silly decomposeActions postinstall source-map-support@0.5.12
+634 silly decomposeActions finalize source-map-support@0.5.12
+635 silly decomposeActions refresh-package-json source-map-support@0.5.12
+636 silly decomposeActions preinstall yargs@13.2.4
+637 silly decomposeActions build yargs@13.2.4
+638 silly decomposeActions install yargs@13.2.4
+639 silly decomposeActions postinstall yargs@13.2.4
+640 silly decomposeActions finalize yargs@13.2.4
+641 silly decomposeActions refresh-package-json yargs@13.2.4
+642 silly decomposeActions preinstall ganache-cli@6.9.1
+643 silly decomposeActions build ganache-cli@6.9.1
+644 silly decomposeActions install ganache-cli@6.9.1
+645 silly decomposeActions postinstall ganache-cli@6.9.1
+646 silly decomposeActions finalize ganache-cli@6.9.1
+647 silly decomposeActions refresh-package-json ganache-cli@6.9.1
+648 silly install executeActions
+649 silly doSerial global-install 530
+650 verbose correctMkdir /root/.npm/_locks correctMkdir not in flight; initializing
+651 verbose lock using /root/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+652 silly doParallel extract 1
+653 silly extract ganache-cli@6.9.1
+654 silly tarball trying ganache-cli@latest by hash: sha512-VPBumkNUZzXDRQwVOby5YyQpd5t1clkr06xMgB28lZdEIn5ht1GMwUskOTFOAxdkQ4J12IWP0gdeacVRGowqbA==
+655 silly extract ganache-cli@latest extracted to /usr/local/lib/node_modules/.staging/ganache-cli-ffd8a91f (2147ms)
+656 timing action:extract Completed in 2255ms
+657 silly doReverseSerial unbuild 530
+658 silly doSerial remove 530
+659 silly doSerial move 530
+660 silly doSerial finalize 530
+661 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/ansi-regex
+662 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/bn.js
+663 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/brorand
+664 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/buffer-from
+665 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/buffer-xor
+666 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/camelcase
+667 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/color-name
+668 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/color-convert
+669 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/ansi-styles
+670 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/decamelize
+671 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/emoji-regex
+672 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/file-uri-to-path
+673 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/bindings
+674 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/get-caller-file
+675 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/inherits
+676 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/invert-kv
+677 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/is-fullwidth-code-point
+678 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/is-hex-prefixed
+679 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/is-stream
+680 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/isexe
+681 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/lcid
+682 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/mimic-fn
+683 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/minimalistic-assert
+684 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/hash.js
+685 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/minimalistic-crypto-utils
+686 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/hmac-drbg
+687 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/elliptic
+688 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/nan
+689 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/nice-try
+690 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/p-defer
+691 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/map-age-cleaner
+692 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/p-finally
+693 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/p-is-promise
+694 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/mem
+695 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/p-try
+696 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/p-limit
+697 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/p-locate
+698 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/path-exists
+699 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/locate-path
+700 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/find-up
+701 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/path-key
+702 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/npm-run-path
+703 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/require-directory
+704 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/require-main-filename
+705 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/safe-buffer
+706 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/bip66
+707 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/cipher-base
+708 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/hash-base
+709 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/ripemd160
+710 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/keccak
+711 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/md5.js
+712 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/evp_bytestokey
+713 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/rlp
+714 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/semver
+715 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/set-blocking
+716 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/sha.js
+717 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/create-hash
+718 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/browserify-aes
+719 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/create-hmac
+720 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/drbg.js
+721 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/secp256k1
+722 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/shebang-regex
+723 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/shebang-command
+724 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/signal-exit
+725 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/source-map
+726 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/strip-ansi
+727 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/string-width
+728 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/strip-eof
+729 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/strip-hex-prefix
+730 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/ethjs-util
+731 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/which
+732 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/cross-spawn
+733 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/which-module
+734 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/wrap-ansi
+735 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/cliui
+736 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/wrappy
+737 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/once
+738 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/end-of-stream
+739 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/pump
+740 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/get-stream
+741 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/execa
+742 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/os-locale
+743 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/y18n
+744 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/yargs-parser
+745 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/ethereumjs-util
+746 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/source-map-support
+747 silly finalize /usr/local/lib/node_modules/ganache-cli/node_modules/yargs
+748 silly finalize /usr/local/lib/node_modules/ganache-cli
+749 timing action:finalize Completed in 356ms
+750 silly doParallel refresh-package-json 88
+751 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/ansi-regex
+752 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/bn.js
+753 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/brorand
+754 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/buffer-from
+755 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/buffer-xor
+756 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/camelcase
+757 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/color-name
+758 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/color-convert
+759 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/ansi-styles
+760 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/decamelize
+761 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/emoji-regex
+762 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/file-uri-to-path
+763 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/bindings
+764 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/get-caller-file
+765 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/inherits
+766 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/invert-kv
+767 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/is-fullwidth-code-point
+768 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/is-hex-prefixed
+769 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/is-stream
+770 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/isexe
+771 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/lcid
+772 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/mimic-fn
+773 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/minimalistic-assert
+774 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/hash.js
+775 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/minimalistic-crypto-utils
+776 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/hmac-drbg
+777 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/elliptic
+778 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/nan
+779 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/nice-try
+780 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/p-defer
+781 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/map-age-cleaner
+782 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/p-finally
+783 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/p-is-promise
+784 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/mem
+785 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/p-try
+786 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/p-limit
+787 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/p-locate
+788 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/path-exists
+789 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/locate-path
+790 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/find-up
+791 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/path-key
+792 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/npm-run-path
+793 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/require-directory
+794 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/require-main-filename
+795 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/safe-buffer
+796 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/bip66
+797 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/cipher-base
+798 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/hash-base
+799 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/ripemd160
+800 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/keccak
+801 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli
+802 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/yargs
+803 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/source-map-support
+804 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/ethereumjs-util
+805 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/yargs-parser
+806 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/y18n
+807 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/os-locale
+808 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/execa
+809 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/get-stream
+810 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/pump
+811 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/end-of-stream
+812 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/once
+813 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/wrappy
+814 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/cliui
+815 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/wrap-ansi
+816 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/which-module
+817 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/cross-spawn
+818 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/which
+819 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/ethjs-util
+820 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/strip-hex-prefix
+821 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/strip-eof
+822 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/string-width
+823 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/strip-ansi
+824 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/source-map
+825 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/signal-exit
+826 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/shebang-command
+827 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/shebang-regex
+828 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/secp256k1
+829 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/drbg.js
+830 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/create-hmac
+831 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/browserify-aes
+832 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/create-hash
+833 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/sha.js
+834 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/set-blocking
+835 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/semver
+836 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/rlp
+837 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/evp_bytestokey
+838 silly refresh-package-json /usr/local/lib/node_modules/ganache-cli/node_modules/md5.js
+839 timing action:refresh-package-json Completed in 615ms
+840 silly doParallel preinstall 88
+841 silly preinstall ansi-regex@4.1.0
+842 info lifecycle ansi-regex@4.1.0~preinstall: ansi-regex@4.1.0
+843 silly preinstall bn.js@4.11.8
+844 info lifecycle bn.js@4.11.8~preinstall: bn.js@4.11.8
+845 silly preinstall brorand@1.1.0
+846 info lifecycle brorand@1.1.0~preinstall: brorand@1.1.0
+847 silly preinstall buffer-from@1.1.1
+848 info lifecycle buffer-from@1.1.1~preinstall: buffer-from@1.1.1
+849 silly preinstall buffer-xor@1.0.3
+850 info lifecycle buffer-xor@1.0.3~preinstall: buffer-xor@1.0.3
+851 silly preinstall camelcase@5.3.1
+852 info lifecycle camelcase@5.3.1~preinstall: camelcase@5.3.1
+853 silly preinstall color-name@1.1.3
+854 info lifecycle color-name@1.1.3~preinstall: color-name@1.1.3
+855 silly preinstall color-convert@1.9.3
+856 info lifecycle color-convert@1.9.3~preinstall: color-convert@1.9.3
+857 silly preinstall ansi-styles@3.2.1
+858 info lifecycle ansi-styles@3.2.1~preinstall: ansi-styles@3.2.1
+859 silly preinstall decamelize@1.2.0
+860 info lifecycle decamelize@1.2.0~preinstall: decamelize@1.2.0
+861 silly preinstall emoji-regex@7.0.3
+862 info lifecycle emoji-regex@7.0.3~preinstall: emoji-regex@7.0.3
+863 silly preinstall file-uri-to-path@1.0.0
+864 info lifecycle file-uri-to-path@1.0.0~preinstall: file-uri-to-path@1.0.0
+865 silly preinstall bindings@1.5.0
+866 info lifecycle bindings@1.5.0~preinstall: bindings@1.5.0
+867 silly preinstall get-caller-file@2.0.5
+868 info lifecycle get-caller-file@2.0.5~preinstall: get-caller-file@2.0.5
+869 silly preinstall inherits@2.0.4
+870 info lifecycle inherits@2.0.4~preinstall: inherits@2.0.4
+871 silly preinstall invert-kv@2.0.0
+872 info lifecycle invert-kv@2.0.0~preinstall: invert-kv@2.0.0
+873 silly preinstall is-fullwidth-code-point@2.0.0
+874 info lifecycle is-fullwidth-code-point@2.0.0~preinstall: is-fullwidth-code-point@2.0.0
+875 silly preinstall is-hex-prefixed@1.0.0
+876 info lifecycle is-hex-prefixed@1.0.0~preinstall: is-hex-prefixed@1.0.0
+877 silly preinstall is-stream@1.1.0
+878 info lifecycle is-stream@1.1.0~preinstall: is-stream@1.1.0
+879 silly preinstall isexe@2.0.0
+880 info lifecycle isexe@2.0.0~preinstall: isexe@2.0.0
+881 silly preinstall lcid@2.0.0
+882 info lifecycle lcid@2.0.0~preinstall: lcid@2.0.0
+883 silly preinstall mimic-fn@2.1.0
+884 info lifecycle mimic-fn@2.1.0~preinstall: mimic-fn@2.1.0
+885 silly preinstall minimalistic-assert@1.0.1
+886 info lifecycle minimalistic-assert@1.0.1~preinstall: minimalistic-assert@1.0.1
+887 silly preinstall hash.js@1.1.7
+888 info lifecycle hash.js@1.1.7~preinstall: hash.js@1.1.7
+889 silly preinstall minimalistic-crypto-utils@1.0.1
+890 info lifecycle minimalistic-crypto-utils@1.0.1~preinstall: minimalistic-crypto-utils@1.0.1
+891 silly preinstall hmac-drbg@1.0.1
+892 info lifecycle hmac-drbg@1.0.1~preinstall: hmac-drbg@1.0.1
+893 silly preinstall elliptic@6.5.0
+894 info lifecycle elliptic@6.5.0~preinstall: elliptic@6.5.0
+895 silly preinstall nan@2.14.0
+896 info lifecycle nan@2.14.0~preinstall: nan@2.14.0
+897 silly preinstall nice-try@1.0.5
+898 info lifecycle nice-try@1.0.5~preinstall: nice-try@1.0.5
+899 silly preinstall p-defer@1.0.0
+900 info lifecycle p-defer@1.0.0~preinstall: p-defer@1.0.0
+901 silly preinstall map-age-cleaner@0.1.3
+902 info lifecycle map-age-cleaner@0.1.3~preinstall: map-age-cleaner@0.1.3
+903 silly preinstall p-finally@1.0.0
+904 info lifecycle p-finally@1.0.0~preinstall: p-finally@1.0.0
+905 silly preinstall p-is-promise@2.1.0
+906 info lifecycle p-is-promise@2.1.0~preinstall: p-is-promise@2.1.0
+907 silly preinstall mem@4.3.0
+908 info lifecycle mem@4.3.0~preinstall: mem@4.3.0
+909 silly preinstall p-try@2.2.0
+910 info lifecycle p-try@2.2.0~preinstall: p-try@2.2.0
+911 silly preinstall p-limit@2.2.0
+912 info lifecycle p-limit@2.2.0~preinstall: p-limit@2.2.0
+913 silly preinstall p-locate@3.0.0
+914 info lifecycle p-locate@3.0.0~preinstall: p-locate@3.0.0
+915 silly preinstall path-exists@3.0.0
+916 info lifecycle path-exists@3.0.0~preinstall: path-exists@3.0.0
+917 silly preinstall locate-path@3.0.0
+918 info lifecycle locate-path@3.0.0~preinstall: locate-path@3.0.0
+919 silly preinstall find-up@3.0.0
+920 info lifecycle find-up@3.0.0~preinstall: find-up@3.0.0
+921 silly preinstall path-key@2.0.1
+922 info lifecycle path-key@2.0.1~preinstall: path-key@2.0.1
+923 silly preinstall npm-run-path@2.0.2
+924 info lifecycle npm-run-path@2.0.2~preinstall: npm-run-path@2.0.2
+925 silly preinstall require-directory@2.1.1
+926 info lifecycle require-directory@2.1.1~preinstall: require-directory@2.1.1
+927 silly preinstall require-main-filename@2.0.0
+928 info lifecycle require-main-filename@2.0.0~preinstall: require-main-filename@2.0.0
+929 silly preinstall safe-buffer@5.2.0
+930 info lifecycle safe-buffer@5.2.0~preinstall: safe-buffer@5.2.0
+931 silly preinstall bip66@1.1.5
+932 info lifecycle bip66@1.1.5~preinstall: bip66@1.1.5
+933 silly preinstall cipher-base@1.0.4
+934 info lifecycle cipher-base@1.0.4~preinstall: cipher-base@1.0.4
+935 silly preinstall hash-base@3.0.4
+936 info lifecycle hash-base@3.0.4~preinstall: hash-base@3.0.4
+937 silly preinstall ripemd160@2.0.2
+938 info lifecycle ripemd160@2.0.2~preinstall: ripemd160@2.0.2
+939 silly preinstall keccak@1.4.0
+940 info lifecycle keccak@1.4.0~preinstall: keccak@1.4.0
+941 silly preinstall ganache-cli@6.9.1
+942 info lifecycle ganache-cli@6.9.1~preinstall: ganache-cli@6.9.1
+943 silly preinstall yargs@13.2.4
+944 info lifecycle yargs@13.2.4~preinstall: yargs@13.2.4
+945 silly preinstall source-map-support@0.5.12
+946 info lifecycle source-map-support@0.5.12~preinstall: source-map-support@0.5.12
+947 silly preinstall ethereumjs-util@6.1.0
+948 info lifecycle ethereumjs-util@6.1.0~preinstall: ethereumjs-util@6.1.0
+949 silly preinstall yargs-parser@13.1.1
+950 info lifecycle yargs-parser@13.1.1~preinstall: yargs-parser@13.1.1
+951 silly preinstall y18n@4.0.0
+952 info lifecycle y18n@4.0.0~preinstall: y18n@4.0.0
+953 silly preinstall os-locale@3.1.0
+954 info lifecycle os-locale@3.1.0~preinstall: os-locale@3.1.0
+955 silly preinstall execa@1.0.0
+956 info lifecycle execa@1.0.0~preinstall: execa@1.0.0
+957 silly preinstall get-stream@4.1.0
+958 info lifecycle get-stream@4.1.0~preinstall: get-stream@4.1.0
+959 silly preinstall pump@3.0.0
+960 info lifecycle pump@3.0.0~preinstall: pump@3.0.0
+961 silly preinstall end-of-stream@1.4.1
+962 info lifecycle end-of-stream@1.4.1~preinstall: end-of-stream@1.4.1
+963 silly preinstall once@1.4.0
+964 info lifecycle once@1.4.0~preinstall: once@1.4.0
+965 silly preinstall wrappy@1.0.2
+966 info lifecycle wrappy@1.0.2~preinstall: wrappy@1.0.2
+967 silly preinstall cliui@5.0.0
+968 info lifecycle cliui@5.0.0~preinstall: cliui@5.0.0
+969 silly preinstall wrap-ansi@5.1.0
+970 info lifecycle wrap-ansi@5.1.0~preinstall: wrap-ansi@5.1.0
+971 silly preinstall which-module@2.0.0
+972 info lifecycle which-module@2.0.0~preinstall: which-module@2.0.0
+973 silly preinstall cross-spawn@6.0.5
+974 info lifecycle cross-spawn@6.0.5~preinstall: cross-spawn@6.0.5
+975 silly preinstall which@1.3.1
+976 info lifecycle which@1.3.1~preinstall: which@1.3.1
+977 silly preinstall ethjs-util@0.1.6
+978 info lifecycle ethjs-util@0.1.6~preinstall: ethjs-util@0.1.6
+979 silly preinstall strip-hex-prefix@1.0.0
+980 info lifecycle strip-hex-prefix@1.0.0~preinstall: strip-hex-prefix@1.0.0
+981 silly preinstall strip-eof@1.0.0
+982 info lifecycle strip-eof@1.0.0~preinstall: strip-eof@1.0.0
+983 silly preinstall string-width@3.1.0
+984 info lifecycle string-width@3.1.0~preinstall: string-width@3.1.0
+985 silly preinstall strip-ansi@5.2.0
+986 info lifecycle strip-ansi@5.2.0~preinstall: strip-ansi@5.2.0
+987 silly preinstall source-map@0.6.1
+988 info lifecycle source-map@0.6.1~preinstall: source-map@0.6.1
+989 silly preinstall signal-exit@3.0.2
+990 info lifecycle signal-exit@3.0.2~preinstall: signal-exit@3.0.2
+991 silly preinstall shebang-command@1.2.0
+992 info lifecycle shebang-command@1.2.0~preinstall: shebang-command@1.2.0
+993 silly preinstall shebang-regex@1.0.0
+994 info lifecycle shebang-regex@1.0.0~preinstall: shebang-regex@1.0.0
+995 silly preinstall secp256k1@3.7.1
+996 info lifecycle secp256k1@3.7.1~preinstall: secp256k1@3.7.1
+997 silly preinstall drbg.js@1.0.1
+998 info lifecycle drbg.js@1.0.1~preinstall: drbg.js@1.0.1
+999 silly preinstall create-hmac@1.1.7
+1000 info lifecycle create-hmac@1.1.7~preinstall: create-hmac@1.1.7
+1001 silly preinstall browserify-aes@1.2.0
+1002 info lifecycle browserify-aes@1.2.0~preinstall: browserify-aes@1.2.0
+1003 silly preinstall create-hash@1.2.0
+1004 info lifecycle create-hash@1.2.0~preinstall: create-hash@1.2.0
+1005 silly preinstall sha.js@2.4.11
+1006 info lifecycle sha.js@2.4.11~preinstall: sha.js@2.4.11
+1007 silly preinstall set-blocking@2.0.0
+1008 info lifecycle set-blocking@2.0.0~preinstall: set-blocking@2.0.0
+1009 silly preinstall semver@5.7.0
+1010 info lifecycle semver@5.7.0~preinstall: semver@5.7.0
+1011 silly preinstall rlp@2.2.3
+1012 info lifecycle rlp@2.2.3~preinstall: rlp@2.2.3
+1013 silly preinstall evp_bytestokey@1.0.3
+1014 info lifecycle evp_bytestokey@1.0.3~preinstall: evp_bytestokey@1.0.3
+1015 silly preinstall md5.js@1.3.5
+1016 info lifecycle md5.js@1.3.5~preinstall: md5.js@1.3.5
+1017 timing action:preinstall Completed in 32ms
+1018 silly doSerial build 530
+1019 silly build ansi-regex@4.1.0
+1020 info linkStuff ansi-regex@4.1.0
+1021 silly linkStuff ansi-regex@4.1.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1022 silly linkStuff ansi-regex@4.1.0 is part of a global install
+1023 silly linkStuff ansi-regex@4.1.0 is installed into a global node_modules
+1024 silly build bn.js@4.11.8
+1025 info linkStuff bn.js@4.11.8
+1026 silly linkStuff bn.js@4.11.8 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1027 silly linkStuff bn.js@4.11.8 is part of a global install
+1028 silly linkStuff bn.js@4.11.8 is installed into a global node_modules
+1029 silly build brorand@1.1.0
+1030 info linkStuff brorand@1.1.0
+1031 silly linkStuff brorand@1.1.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1032 silly linkStuff brorand@1.1.0 is part of a global install
+1033 silly linkStuff brorand@1.1.0 is installed into a global node_modules
+1034 silly build buffer-from@1.1.1
+1035 info linkStuff buffer-from@1.1.1
+1036 silly linkStuff buffer-from@1.1.1 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1037 silly linkStuff buffer-from@1.1.1 is part of a global install
+1038 silly linkStuff buffer-from@1.1.1 is installed into a global node_modules
+1039 silly build buffer-xor@1.0.3
+1040 info linkStuff buffer-xor@1.0.3
+1041 silly linkStuff buffer-xor@1.0.3 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1042 silly linkStuff buffer-xor@1.0.3 is part of a global install
+1043 silly linkStuff buffer-xor@1.0.3 is installed into a global node_modules
+1044 silly build camelcase@5.3.1
+1045 info linkStuff camelcase@5.3.1
+1046 silly linkStuff camelcase@5.3.1 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1047 silly linkStuff camelcase@5.3.1 is part of a global install
+1048 silly linkStuff camelcase@5.3.1 is installed into a global node_modules
+1049 silly build color-name@1.1.3
+1050 info linkStuff color-name@1.1.3
+1051 silly linkStuff color-name@1.1.3 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1052 silly linkStuff color-name@1.1.3 is part of a global install
+1053 silly linkStuff color-name@1.1.3 is installed into a global node_modules
+1054 silly build color-convert@1.9.3
+1055 info linkStuff color-convert@1.9.3
+1056 silly linkStuff color-convert@1.9.3 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1057 silly linkStuff color-convert@1.9.3 is part of a global install
+1058 silly linkStuff color-convert@1.9.3 is installed into a global node_modules
+1059 silly build ansi-styles@3.2.1
+1060 info linkStuff ansi-styles@3.2.1
+1061 silly linkStuff ansi-styles@3.2.1 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1062 silly linkStuff ansi-styles@3.2.1 is part of a global install
+1063 silly linkStuff ansi-styles@3.2.1 is installed into a global node_modules
+1064 silly build decamelize@1.2.0
+1065 info linkStuff decamelize@1.2.0
+1066 silly linkStuff decamelize@1.2.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1067 silly linkStuff decamelize@1.2.0 is part of a global install
+1068 silly linkStuff decamelize@1.2.0 is installed into a global node_modules
+1069 silly build emoji-regex@7.0.3
+1070 info linkStuff emoji-regex@7.0.3
+1071 silly linkStuff emoji-regex@7.0.3 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1072 silly linkStuff emoji-regex@7.0.3 is part of a global install
+1073 silly linkStuff emoji-regex@7.0.3 is installed into a global node_modules
+1074 silly build file-uri-to-path@1.0.0
+1075 info linkStuff file-uri-to-path@1.0.0
+1076 silly linkStuff file-uri-to-path@1.0.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1077 silly linkStuff file-uri-to-path@1.0.0 is part of a global install
+1078 silly linkStuff file-uri-to-path@1.0.0 is installed into a global node_modules
+1079 silly build bindings@1.5.0
+1080 info linkStuff bindings@1.5.0
+1081 silly linkStuff bindings@1.5.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1082 silly linkStuff bindings@1.5.0 is part of a global install
+1083 silly linkStuff bindings@1.5.0 is installed into a global node_modules
+1084 silly build get-caller-file@2.0.5
+1085 info linkStuff get-caller-file@2.0.5
+1086 silly linkStuff get-caller-file@2.0.5 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1087 silly linkStuff get-caller-file@2.0.5 is part of a global install
+1088 silly linkStuff get-caller-file@2.0.5 is installed into a global node_modules
+1089 silly build inherits@2.0.4
+1090 info linkStuff inherits@2.0.4
+1091 silly linkStuff inherits@2.0.4 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1092 silly linkStuff inherits@2.0.4 is part of a global install
+1093 silly linkStuff inherits@2.0.4 is installed into a global node_modules
+1094 silly build invert-kv@2.0.0
+1095 info linkStuff invert-kv@2.0.0
+1096 silly linkStuff invert-kv@2.0.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1097 silly linkStuff invert-kv@2.0.0 is part of a global install
+1098 silly linkStuff invert-kv@2.0.0 is installed into a global node_modules
+1099 silly build is-fullwidth-code-point@2.0.0
+1100 info linkStuff is-fullwidth-code-point@2.0.0
+1101 silly linkStuff is-fullwidth-code-point@2.0.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1102 silly linkStuff is-fullwidth-code-point@2.0.0 is part of a global install
+1103 silly linkStuff is-fullwidth-code-point@2.0.0 is installed into a global node_modules
+1104 silly build is-hex-prefixed@1.0.0
+1105 info linkStuff is-hex-prefixed@1.0.0
+1106 silly linkStuff is-hex-prefixed@1.0.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1107 silly linkStuff is-hex-prefixed@1.0.0 is part of a global install
+1108 silly linkStuff is-hex-prefixed@1.0.0 is installed into a global node_modules
+1109 silly build is-stream@1.1.0
+1110 info linkStuff is-stream@1.1.0
+1111 silly linkStuff is-stream@1.1.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1112 silly linkStuff is-stream@1.1.0 is part of a global install
+1113 silly linkStuff is-stream@1.1.0 is installed into a global node_modules
+1114 silly build isexe@2.0.0
+1115 info linkStuff isexe@2.0.0
+1116 silly linkStuff isexe@2.0.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1117 silly linkStuff isexe@2.0.0 is part of a global install
+1118 silly linkStuff isexe@2.0.0 is installed into a global node_modules
+1119 silly build lcid@2.0.0
+1120 info linkStuff lcid@2.0.0
+1121 silly linkStuff lcid@2.0.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1122 silly linkStuff lcid@2.0.0 is part of a global install
+1123 silly linkStuff lcid@2.0.0 is installed into a global node_modules
+1124 silly build mimic-fn@2.1.0
+1125 info linkStuff mimic-fn@2.1.0
+1126 silly linkStuff mimic-fn@2.1.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1127 silly linkStuff mimic-fn@2.1.0 is part of a global install
+1128 silly linkStuff mimic-fn@2.1.0 is installed into a global node_modules
+1129 silly build minimalistic-assert@1.0.1
+1130 info linkStuff minimalistic-assert@1.0.1
+1131 silly linkStuff minimalistic-assert@1.0.1 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1132 silly linkStuff minimalistic-assert@1.0.1 is part of a global install
+1133 silly linkStuff minimalistic-assert@1.0.1 is installed into a global node_modules
+1134 silly build hash.js@1.1.7
+1135 info linkStuff hash.js@1.1.7
+1136 silly linkStuff hash.js@1.1.7 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1137 silly linkStuff hash.js@1.1.7 is part of a global install
+1138 silly linkStuff hash.js@1.1.7 is installed into a global node_modules
+1139 silly build minimalistic-crypto-utils@1.0.1
+1140 info linkStuff minimalistic-crypto-utils@1.0.1
+1141 silly linkStuff minimalistic-crypto-utils@1.0.1 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1142 silly linkStuff minimalistic-crypto-utils@1.0.1 is part of a global install
+1143 silly linkStuff minimalistic-crypto-utils@1.0.1 is installed into a global node_modules
+1144 silly build hmac-drbg@1.0.1
+1145 info linkStuff hmac-drbg@1.0.1
+1146 silly linkStuff hmac-drbg@1.0.1 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1147 silly linkStuff hmac-drbg@1.0.1 is part of a global install
+1148 silly linkStuff hmac-drbg@1.0.1 is installed into a global node_modules
+1149 silly build elliptic@6.5.0
+1150 info linkStuff elliptic@6.5.0
+1151 silly linkStuff elliptic@6.5.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1152 silly linkStuff elliptic@6.5.0 is part of a global install
+1153 silly linkStuff elliptic@6.5.0 is installed into a global node_modules
+1154 silly build nan@2.14.0
+1155 info linkStuff nan@2.14.0
+1156 silly linkStuff nan@2.14.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1157 silly linkStuff nan@2.14.0 is part of a global install
+1158 silly linkStuff nan@2.14.0 is installed into a global node_modules
+1159 silly build nice-try@1.0.5
+1160 info linkStuff nice-try@1.0.5
+1161 silly linkStuff nice-try@1.0.5 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1162 silly linkStuff nice-try@1.0.5 is part of a global install
+1163 silly linkStuff nice-try@1.0.5 is installed into a global node_modules
+1164 silly build p-defer@1.0.0
+1165 info linkStuff p-defer@1.0.0
+1166 silly linkStuff p-defer@1.0.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1167 silly linkStuff p-defer@1.0.0 is part of a global install
+1168 silly linkStuff p-defer@1.0.0 is installed into a global node_modules
+1169 silly build map-age-cleaner@0.1.3
+1170 info linkStuff map-age-cleaner@0.1.3
+1171 silly linkStuff map-age-cleaner@0.1.3 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1172 silly linkStuff map-age-cleaner@0.1.3 is part of a global install
+1173 silly linkStuff map-age-cleaner@0.1.3 is installed into a global node_modules
+1174 silly build p-finally@1.0.0
+1175 info linkStuff p-finally@1.0.0
+1176 silly linkStuff p-finally@1.0.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1177 silly linkStuff p-finally@1.0.0 is part of a global install
+1178 silly linkStuff p-finally@1.0.0 is installed into a global node_modules
+1179 silly build p-is-promise@2.1.0
+1180 info linkStuff p-is-promise@2.1.0
+1181 silly linkStuff p-is-promise@2.1.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1182 silly linkStuff p-is-promise@2.1.0 is part of a global install
+1183 silly linkStuff p-is-promise@2.1.0 is installed into a global node_modules
+1184 silly build mem@4.3.0
+1185 info linkStuff mem@4.3.0
+1186 silly linkStuff mem@4.3.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1187 silly linkStuff mem@4.3.0 is part of a global install
+1188 silly linkStuff mem@4.3.0 is installed into a global node_modules
+1189 silly build p-try@2.2.0
+1190 info linkStuff p-try@2.2.0
+1191 silly linkStuff p-try@2.2.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1192 silly linkStuff p-try@2.2.0 is part of a global install
+1193 silly linkStuff p-try@2.2.0 is installed into a global node_modules
+1194 silly build p-limit@2.2.0
+1195 info linkStuff p-limit@2.2.0
+1196 silly linkStuff p-limit@2.2.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1197 silly linkStuff p-limit@2.2.0 is part of a global install
+1198 silly linkStuff p-limit@2.2.0 is installed into a global node_modules
+1199 silly build p-locate@3.0.0
+1200 info linkStuff p-locate@3.0.0
+1201 silly linkStuff p-locate@3.0.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1202 silly linkStuff p-locate@3.0.0 is part of a global install
+1203 silly linkStuff p-locate@3.0.0 is installed into a global node_modules
+1204 silly build path-exists@3.0.0
+1205 info linkStuff path-exists@3.0.0
+1206 silly linkStuff path-exists@3.0.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1207 silly linkStuff path-exists@3.0.0 is part of a global install
+1208 silly linkStuff path-exists@3.0.0 is installed into a global node_modules
+1209 silly build locate-path@3.0.0
+1210 info linkStuff locate-path@3.0.0
+1211 silly linkStuff locate-path@3.0.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1212 silly linkStuff locate-path@3.0.0 is part of a global install
+1213 silly linkStuff locate-path@3.0.0 is installed into a global node_modules
+1214 silly build find-up@3.0.0
+1215 info linkStuff find-up@3.0.0
+1216 silly linkStuff find-up@3.0.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1217 silly linkStuff find-up@3.0.0 is part of a global install
+1218 silly linkStuff find-up@3.0.0 is installed into a global node_modules
+1219 silly build path-key@2.0.1
+1220 info linkStuff path-key@2.0.1
+1221 silly linkStuff path-key@2.0.1 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1222 silly linkStuff path-key@2.0.1 is part of a global install
+1223 silly linkStuff path-key@2.0.1 is installed into a global node_modules
+1224 silly build npm-run-path@2.0.2
+1225 info linkStuff npm-run-path@2.0.2
+1226 silly linkStuff npm-run-path@2.0.2 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1227 silly linkStuff npm-run-path@2.0.2 is part of a global install
+1228 silly linkStuff npm-run-path@2.0.2 is installed into a global node_modules
+1229 silly build require-directory@2.1.1
+1230 info linkStuff require-directory@2.1.1
+1231 silly linkStuff require-directory@2.1.1 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1232 silly linkStuff require-directory@2.1.1 is part of a global install
+1233 silly linkStuff require-directory@2.1.1 is installed into a global node_modules
+1234 silly build require-main-filename@2.0.0
+1235 info linkStuff require-main-filename@2.0.0
+1236 silly linkStuff require-main-filename@2.0.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1237 silly linkStuff require-main-filename@2.0.0 is part of a global install
+1238 silly linkStuff require-main-filename@2.0.0 is installed into a global node_modules
+1239 silly build safe-buffer@5.2.0
+1240 info linkStuff safe-buffer@5.2.0
+1241 silly linkStuff safe-buffer@5.2.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1242 silly linkStuff safe-buffer@5.2.0 is part of a global install
+1243 silly linkStuff safe-buffer@5.2.0 is installed into a global node_modules
+1244 silly build bip66@1.1.5
+1245 info linkStuff bip66@1.1.5
+1246 silly linkStuff bip66@1.1.5 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1247 silly linkStuff bip66@1.1.5 is part of a global install
+1248 silly linkStuff bip66@1.1.5 is installed into a global node_modules
+1249 silly build cipher-base@1.0.4
+1250 info linkStuff cipher-base@1.0.4
+1251 silly linkStuff cipher-base@1.0.4 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1252 silly linkStuff cipher-base@1.0.4 is part of a global install
+1253 silly linkStuff cipher-base@1.0.4 is installed into a global node_modules
+1254 silly build hash-base@3.0.4
+1255 info linkStuff hash-base@3.0.4
+1256 silly linkStuff hash-base@3.0.4 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1257 silly linkStuff hash-base@3.0.4 is part of a global install
+1258 silly linkStuff hash-base@3.0.4 is installed into a global node_modules
+1259 silly build ripemd160@2.0.2
+1260 info linkStuff ripemd160@2.0.2
+1261 silly linkStuff ripemd160@2.0.2 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1262 silly linkStuff ripemd160@2.0.2 is part of a global install
+1263 silly linkStuff ripemd160@2.0.2 is installed into a global node_modules
+1264 silly build keccak@1.4.0
+1265 info linkStuff keccak@1.4.0
+1266 silly linkStuff keccak@1.4.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1267 silly linkStuff keccak@1.4.0 is part of a global install
+1268 silly linkStuff keccak@1.4.0 is installed into a global node_modules
+1269 silly build md5.js@1.3.5
+1270 info linkStuff md5.js@1.3.5
+1271 silly linkStuff md5.js@1.3.5 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1272 silly linkStuff md5.js@1.3.5 is part of a global install
+1273 silly linkStuff md5.js@1.3.5 is installed into a global node_modules
+1274 silly build evp_bytestokey@1.0.3
+1275 info linkStuff evp_bytestokey@1.0.3
+1276 silly linkStuff evp_bytestokey@1.0.3 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1277 silly linkStuff evp_bytestokey@1.0.3 is part of a global install
+1278 silly linkStuff evp_bytestokey@1.0.3 is installed into a global node_modules
+1279 silly build rlp@2.2.3
+1280 info linkStuff rlp@2.2.3
+1281 silly linkStuff rlp@2.2.3 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1282 silly linkStuff rlp@2.2.3 is part of a global install
+1283 silly linkStuff rlp@2.2.3 is installed into a global node_modules
+1284 verbose linkBins [ { rlp: 'bin/rlp' },
+1284 verbose linkBins   '/usr/local/lib/node_modules/ganache-cli/node_modules/.bin',
+1284 verbose linkBins   false ]
+1285 silly gently link link does not already exist { link:
+1285 silly gently link    '/usr/local/lib/node_modules/ganache-cli/node_modules/.bin/rlp',
+1285 silly gently link   target:
+1285 silly gently link    '/usr/local/lib/node_modules/ganache-cli/node_modules/rlp/bin/rlp' }
+1286 silly build semver@5.7.0
+1287 info linkStuff semver@5.7.0
+1288 silly linkStuff semver@5.7.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1289 silly linkStuff semver@5.7.0 is part of a global install
+1290 silly linkStuff semver@5.7.0 is installed into a global node_modules
+1291 verbose linkBins [ { semver: 'bin/semver' },
+1291 verbose linkBins   '/usr/local/lib/node_modules/ganache-cli/node_modules/.bin',
+1291 verbose linkBins   false ]
+1292 silly gently link link does not already exist { link:
+1292 silly gently link    '/usr/local/lib/node_modules/ganache-cli/node_modules/.bin/semver',
+1292 silly gently link   target:
+1292 silly gently link    '/usr/local/lib/node_modules/ganache-cli/node_modules/semver/bin/semver' }
+1293 silly build set-blocking@2.0.0
+1294 info linkStuff set-blocking@2.0.0
+1295 silly linkStuff set-blocking@2.0.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1296 silly linkStuff set-blocking@2.0.0 is part of a global install
+1297 silly linkStuff set-blocking@2.0.0 is installed into a global node_modules
+1298 silly build sha.js@2.4.11
+1299 info linkStuff sha.js@2.4.11
+1300 silly linkStuff sha.js@2.4.11 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1301 silly linkStuff sha.js@2.4.11 is part of a global install
+1302 silly linkStuff sha.js@2.4.11 is installed into a global node_modules
+1303 verbose linkBins [ { 'sha.js': 'bin.js' },
+1303 verbose linkBins   '/usr/local/lib/node_modules/ganache-cli/node_modules/.bin',
+1303 verbose linkBins   false ]
+1304 silly gently link link does not already exist { link:
+1304 silly gently link    '/usr/local/lib/node_modules/ganache-cli/node_modules/.bin/sha.js',
+1304 silly gently link   target:
+1304 silly gently link    '/usr/local/lib/node_modules/ganache-cli/node_modules/sha.js/bin.js' }
+1305 silly build create-hash@1.2.0
+1306 info linkStuff create-hash@1.2.0
+1307 silly linkStuff create-hash@1.2.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1308 silly linkStuff create-hash@1.2.0 is part of a global install
+1309 silly linkStuff create-hash@1.2.0 is installed into a global node_modules
+1310 silly build browserify-aes@1.2.0
+1311 info linkStuff browserify-aes@1.2.0
+1312 silly linkStuff browserify-aes@1.2.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1313 silly linkStuff browserify-aes@1.2.0 is part of a global install
+1314 silly linkStuff browserify-aes@1.2.0 is installed into a global node_modules
+1315 silly build create-hmac@1.1.7
+1316 info linkStuff create-hmac@1.1.7
+1317 silly linkStuff create-hmac@1.1.7 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1318 silly linkStuff create-hmac@1.1.7 is part of a global install
+1319 silly linkStuff create-hmac@1.1.7 is installed into a global node_modules
+1320 silly build drbg.js@1.0.1
+1321 info linkStuff drbg.js@1.0.1
+1322 silly linkStuff drbg.js@1.0.1 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1323 silly linkStuff drbg.js@1.0.1 is part of a global install
+1324 silly linkStuff drbg.js@1.0.1 is installed into a global node_modules
+1325 silly build secp256k1@3.7.1
+1326 info linkStuff secp256k1@3.7.1
+1327 silly linkStuff secp256k1@3.7.1 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1328 silly linkStuff secp256k1@3.7.1 is part of a global install
+1329 silly linkStuff secp256k1@3.7.1 is installed into a global node_modules
+1330 silly build shebang-regex@1.0.0
+1331 info linkStuff shebang-regex@1.0.0
+1332 silly linkStuff shebang-regex@1.0.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1333 silly linkStuff shebang-regex@1.0.0 is part of a global install
+1334 silly linkStuff shebang-regex@1.0.0 is installed into a global node_modules
+1335 silly build shebang-command@1.2.0
+1336 info linkStuff shebang-command@1.2.0
+1337 silly linkStuff shebang-command@1.2.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1338 silly linkStuff shebang-command@1.2.0 is part of a global install
+1339 silly linkStuff shebang-command@1.2.0 is installed into a global node_modules
+1340 silly build signal-exit@3.0.2
+1341 info linkStuff signal-exit@3.0.2
+1342 silly linkStuff signal-exit@3.0.2 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1343 silly linkStuff signal-exit@3.0.2 is part of a global install
+1344 silly linkStuff signal-exit@3.0.2 is installed into a global node_modules
+1345 silly build source-map@0.6.1
+1346 info linkStuff source-map@0.6.1
+1347 silly linkStuff source-map@0.6.1 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1348 silly linkStuff source-map@0.6.1 is part of a global install
+1349 silly linkStuff source-map@0.6.1 is installed into a global node_modules
+1350 silly build strip-ansi@5.2.0
+1351 info linkStuff strip-ansi@5.2.0
+1352 silly linkStuff strip-ansi@5.2.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1353 silly linkStuff strip-ansi@5.2.0 is part of a global install
+1354 silly linkStuff strip-ansi@5.2.0 is installed into a global node_modules
+1355 silly build string-width@3.1.0
+1356 info linkStuff string-width@3.1.0
+1357 silly linkStuff string-width@3.1.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1358 silly linkStuff string-width@3.1.0 is part of a global install
+1359 silly linkStuff string-width@3.1.0 is installed into a global node_modules
+1360 silly build strip-eof@1.0.0
+1361 info linkStuff strip-eof@1.0.0
+1362 silly linkStuff strip-eof@1.0.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1363 silly linkStuff strip-eof@1.0.0 is part of a global install
+1364 silly linkStuff strip-eof@1.0.0 is installed into a global node_modules
+1365 silly build strip-hex-prefix@1.0.0
+1366 info linkStuff strip-hex-prefix@1.0.0
+1367 silly linkStuff strip-hex-prefix@1.0.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1368 silly linkStuff strip-hex-prefix@1.0.0 is part of a global install
+1369 silly linkStuff strip-hex-prefix@1.0.0 is installed into a global node_modules
+1370 silly build ethjs-util@0.1.6
+1371 info linkStuff ethjs-util@0.1.6
+1372 silly linkStuff ethjs-util@0.1.6 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1373 silly linkStuff ethjs-util@0.1.6 is part of a global install
+1374 silly linkStuff ethjs-util@0.1.6 is installed into a global node_modules
+1375 silly build which@1.3.1
+1376 info linkStuff which@1.3.1
+1377 silly linkStuff which@1.3.1 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1378 silly linkStuff which@1.3.1 is part of a global install
+1379 silly linkStuff which@1.3.1 is installed into a global node_modules
+1380 verbose linkBins [ { which: 'bin/which' },
+1380 verbose linkBins   '/usr/local/lib/node_modules/ganache-cli/node_modules/.bin',
+1380 verbose linkBins   false ]
+1381 silly gently link link does not already exist { link:
+1381 silly gently link    '/usr/local/lib/node_modules/ganache-cli/node_modules/.bin/which',
+1381 silly gently link   target:
+1381 silly gently link    '/usr/local/lib/node_modules/ganache-cli/node_modules/which/bin/which' }
+1382 silly build cross-spawn@6.0.5
+1383 info linkStuff cross-spawn@6.0.5
+1384 silly linkStuff cross-spawn@6.0.5 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1385 silly linkStuff cross-spawn@6.0.5 is part of a global install
+1386 silly linkStuff cross-spawn@6.0.5 is installed into a global node_modules
+1387 silly build which-module@2.0.0
+1388 info linkStuff which-module@2.0.0
+1389 silly linkStuff which-module@2.0.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1390 silly linkStuff which-module@2.0.0 is part of a global install
+1391 silly linkStuff which-module@2.0.0 is installed into a global node_modules
+1392 silly build wrap-ansi@5.1.0
+1393 info linkStuff wrap-ansi@5.1.0
+1394 silly linkStuff wrap-ansi@5.1.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1395 silly linkStuff wrap-ansi@5.1.0 is part of a global install
+1396 silly linkStuff wrap-ansi@5.1.0 is installed into a global node_modules
+1397 silly build cliui@5.0.0
+1398 info linkStuff cliui@5.0.0
+1399 silly linkStuff cliui@5.0.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1400 silly linkStuff cliui@5.0.0 is part of a global install
+1401 silly linkStuff cliui@5.0.0 is installed into a global node_modules
+1402 silly build wrappy@1.0.2
+1403 info linkStuff wrappy@1.0.2
+1404 silly linkStuff wrappy@1.0.2 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1405 silly linkStuff wrappy@1.0.2 is part of a global install
+1406 silly linkStuff wrappy@1.0.2 is installed into a global node_modules
+1407 silly build once@1.4.0
+1408 info linkStuff once@1.4.0
+1409 silly linkStuff once@1.4.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1410 silly linkStuff once@1.4.0 is part of a global install
+1411 silly linkStuff once@1.4.0 is installed into a global node_modules
+1412 silly build end-of-stream@1.4.1
+1413 info linkStuff end-of-stream@1.4.1
+1414 silly linkStuff end-of-stream@1.4.1 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1415 silly linkStuff end-of-stream@1.4.1 is part of a global install
+1416 silly linkStuff end-of-stream@1.4.1 is installed into a global node_modules
+1417 silly build pump@3.0.0
+1418 info linkStuff pump@3.0.0
+1419 silly linkStuff pump@3.0.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1420 silly linkStuff pump@3.0.0 is part of a global install
+1421 silly linkStuff pump@3.0.0 is installed into a global node_modules
+1422 silly build get-stream@4.1.0
+1423 info linkStuff get-stream@4.1.0
+1424 silly linkStuff get-stream@4.1.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1425 silly linkStuff get-stream@4.1.0 is part of a global install
+1426 silly linkStuff get-stream@4.1.0 is installed into a global node_modules
+1427 silly build execa@1.0.0
+1428 info linkStuff execa@1.0.0
+1429 silly linkStuff execa@1.0.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1430 silly linkStuff execa@1.0.0 is part of a global install
+1431 silly linkStuff execa@1.0.0 is installed into a global node_modules
+1432 silly build os-locale@3.1.0
+1433 info linkStuff os-locale@3.1.0
+1434 silly linkStuff os-locale@3.1.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1435 silly linkStuff os-locale@3.1.0 is part of a global install
+1436 silly linkStuff os-locale@3.1.0 is installed into a global node_modules
+1437 silly build y18n@4.0.0
+1438 info linkStuff y18n@4.0.0
+1439 silly linkStuff y18n@4.0.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1440 silly linkStuff y18n@4.0.0 is part of a global install
+1441 silly linkStuff y18n@4.0.0 is installed into a global node_modules
+1442 silly build yargs-parser@13.1.1
+1443 info linkStuff yargs-parser@13.1.1
+1444 silly linkStuff yargs-parser@13.1.1 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1445 silly linkStuff yargs-parser@13.1.1 is part of a global install
+1446 silly linkStuff yargs-parser@13.1.1 is installed into a global node_modules
+1447 silly build ethereumjs-util@6.1.0
+1448 info linkStuff ethereumjs-util@6.1.0
+1449 silly linkStuff ethereumjs-util@6.1.0 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1450 silly linkStuff ethereumjs-util@6.1.0 is part of a global install
+1451 silly linkStuff ethereumjs-util@6.1.0 is installed into a global node_modules
+1452 silly build source-map-support@0.5.12
+1453 info linkStuff source-map-support@0.5.12
+1454 silly linkStuff source-map-support@0.5.12 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1455 silly linkStuff source-map-support@0.5.12 is part of a global install
+1456 silly linkStuff source-map-support@0.5.12 is installed into a global node_modules
+1457 silly build yargs@13.2.4
+1458 info linkStuff yargs@13.2.4
+1459 silly linkStuff yargs@13.2.4 has /usr/local/lib/node_modules/ganache-cli/node_modules as its parent node_modules
+1460 silly linkStuff yargs@13.2.4 is part of a global install
+1461 silly linkStuff yargs@13.2.4 is installed into a global node_modules
+1462 silly build ganache-cli@6.9.1
+1463 info linkStuff ganache-cli@6.9.1
+1464 silly linkStuff ganache-cli@6.9.1 has /usr/local/lib/node_modules as its parent node_modules
+1465 silly linkStuff ganache-cli@6.9.1 is part of a global install
+1466 silly linkStuff ganache-cli@6.9.1 is installed into a global node_modules
+1467 silly linkStuff ganache-cli@6.9.1 is installed into the top-level global node_modules
+1468 verbose linkBins [ { 'ganache-cli': 'cli.js' }, '/usr/local/bin', true ]
+1469 silly gently link link does not already exist { link: '/usr/local/bin/ganache-cli',
+1469 silly gently link   target: '/usr/local/lib/node_modules/ganache-cli/cli.js' }
+1470 timing action:build Completed in 88ms
+1471 silly doSerial global-link 530
+1472 silly doParallel update-linked 0
+1473 silly doSerial install 530
+1474 silly install ansi-regex@4.1.0
+1475 info lifecycle ansi-regex@4.1.0~install: ansi-regex@4.1.0
+1476 silly install bn.js@4.11.8
+1477 info lifecycle bn.js@4.11.8~install: bn.js@4.11.8
+1478 silly install brorand@1.1.0
+1479 info lifecycle brorand@1.1.0~install: brorand@1.1.0
+1480 silly install buffer-from@1.1.1
+1481 info lifecycle buffer-from@1.1.1~install: buffer-from@1.1.1
+1482 silly install buffer-xor@1.0.3
+1483 info lifecycle buffer-xor@1.0.3~install: buffer-xor@1.0.3
+1484 silly install camelcase@5.3.1
+1485 info lifecycle camelcase@5.3.1~install: camelcase@5.3.1
+1486 silly install color-name@1.1.3
+1487 info lifecycle color-name@1.1.3~install: color-name@1.1.3
+1488 silly install color-convert@1.9.3
+1489 info lifecycle color-convert@1.9.3~install: color-convert@1.9.3
+1490 silly install ansi-styles@3.2.1
+1491 info lifecycle ansi-styles@3.2.1~install: ansi-styles@3.2.1
+1492 silly install decamelize@1.2.0
+1493 info lifecycle decamelize@1.2.0~install: decamelize@1.2.0
+1494 silly install emoji-regex@7.0.3
+1495 info lifecycle emoji-regex@7.0.3~install: emoji-regex@7.0.3
+1496 silly install file-uri-to-path@1.0.0
+1497 info lifecycle file-uri-to-path@1.0.0~install: file-uri-to-path@1.0.0
+1498 silly install bindings@1.5.0
+1499 info lifecycle bindings@1.5.0~install: bindings@1.5.0
+1500 silly install get-caller-file@2.0.5
+1501 info lifecycle get-caller-file@2.0.5~install: get-caller-file@2.0.5
+1502 silly install inherits@2.0.4
+1503 info lifecycle inherits@2.0.4~install: inherits@2.0.4
+1504 silly install invert-kv@2.0.0
+1505 info lifecycle invert-kv@2.0.0~install: invert-kv@2.0.0
+1506 silly install is-fullwidth-code-point@2.0.0
+1507 info lifecycle is-fullwidth-code-point@2.0.0~install: is-fullwidth-code-point@2.0.0
+1508 silly install is-hex-prefixed@1.0.0
+1509 info lifecycle is-hex-prefixed@1.0.0~install: is-hex-prefixed@1.0.0
+1510 silly install is-stream@1.1.0
+1511 info lifecycle is-stream@1.1.0~install: is-stream@1.1.0
+1512 silly install isexe@2.0.0
+1513 info lifecycle isexe@2.0.0~install: isexe@2.0.0
+1514 silly install lcid@2.0.0
+1515 info lifecycle lcid@2.0.0~install: lcid@2.0.0
+1516 silly install mimic-fn@2.1.0
+1517 info lifecycle mimic-fn@2.1.0~install: mimic-fn@2.1.0
+1518 silly install minimalistic-assert@1.0.1
+1519 info lifecycle minimalistic-assert@1.0.1~install: minimalistic-assert@1.0.1
+1520 silly install hash.js@1.1.7
+1521 info lifecycle hash.js@1.1.7~install: hash.js@1.1.7
+1522 silly install minimalistic-crypto-utils@1.0.1
+1523 info lifecycle minimalistic-crypto-utils@1.0.1~install: minimalistic-crypto-utils@1.0.1
+1524 silly install hmac-drbg@1.0.1
+1525 info lifecycle hmac-drbg@1.0.1~install: hmac-drbg@1.0.1
+1526 silly install elliptic@6.5.0
+1527 info lifecycle elliptic@6.5.0~install: elliptic@6.5.0
+1528 silly install nan@2.14.0
+1529 info lifecycle nan@2.14.0~install: nan@2.14.0
+1530 silly install nice-try@1.0.5
+1531 info lifecycle nice-try@1.0.5~install: nice-try@1.0.5
+1532 silly install p-defer@1.0.0
+1533 info lifecycle p-defer@1.0.0~install: p-defer@1.0.0
+1534 silly install map-age-cleaner@0.1.3
+1535 info lifecycle map-age-cleaner@0.1.3~install: map-age-cleaner@0.1.3
+1536 silly install p-finally@1.0.0
+1537 info lifecycle p-finally@1.0.0~install: p-finally@1.0.0
+1538 silly install p-is-promise@2.1.0
+1539 info lifecycle p-is-promise@2.1.0~install: p-is-promise@2.1.0
+1540 silly install mem@4.3.0
+1541 info lifecycle mem@4.3.0~install: mem@4.3.0
+1542 silly install p-try@2.2.0
+1543 info lifecycle p-try@2.2.0~install: p-try@2.2.0
+1544 silly install p-limit@2.2.0
+1545 info lifecycle p-limit@2.2.0~install: p-limit@2.2.0
+1546 silly install p-locate@3.0.0
+1547 info lifecycle p-locate@3.0.0~install: p-locate@3.0.0
+1548 silly install path-exists@3.0.0
+1549 info lifecycle path-exists@3.0.0~install: path-exists@3.0.0
+1550 silly install locate-path@3.0.0
+1551 info lifecycle locate-path@3.0.0~install: locate-path@3.0.0
+1552 silly install find-up@3.0.0
+1553 info lifecycle find-up@3.0.0~install: find-up@3.0.0
+1554 silly install path-key@2.0.1
+1555 info lifecycle path-key@2.0.1~install: path-key@2.0.1
+1556 silly install npm-run-path@2.0.2
+1557 info lifecycle npm-run-path@2.0.2~install: npm-run-path@2.0.2
+1558 silly install require-directory@2.1.1
+1559 info lifecycle require-directory@2.1.1~install: require-directory@2.1.1
+1560 silly install require-main-filename@2.0.0
+1561 info lifecycle require-main-filename@2.0.0~install: require-main-filename@2.0.0
+1562 silly install safe-buffer@5.2.0
+1563 info lifecycle safe-buffer@5.2.0~install: safe-buffer@5.2.0
+1564 silly install bip66@1.1.5
+1565 info lifecycle bip66@1.1.5~install: bip66@1.1.5
+1566 silly install cipher-base@1.0.4
+1567 info lifecycle cipher-base@1.0.4~install: cipher-base@1.0.4
+1568 silly install hash-base@3.0.4
+1569 info lifecycle hash-base@3.0.4~install: hash-base@3.0.4
+1570 silly install ripemd160@2.0.2
+1571 info lifecycle ripemd160@2.0.2~install: ripemd160@2.0.2
+1572 silly install keccak@1.4.0
+1573 info lifecycle keccak@1.4.0~install: keccak@1.4.0
+1574 verbose lifecycle keccak@1.4.0~install: unsafe-perm in lifecycle false
+1575 verbose stack Error: Cannot find module './get-uid-gid.js'
+1575 verbose stack     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+1575 verbose stack     at Function.resolve (internal/modules/cjs/helpers.js:33:19)
+1575 verbose stack     at uidNumber (/usr/lib/nodejs/uid-number/uid-number.js:31:24)
+1575 verbose stack     at runCmd (/usr/share/npm/node_modules/npm-lifecycle/index.js:267:5)
+1575 verbose stack     at runPackageLifecycle (/usr/share/npm/node_modules/npm-lifecycle/index.js:228:3)
+1575 verbose stack     at Array.<anonymous> (/usr/lib/nodejs/slide/lib/bind-actor.js:15:8)
+1575 verbose stack     at LOOP (/usr/lib/nodejs/slide/lib/chain.js:15:14)
+1575 verbose stack     at chain (/usr/lib/nodejs/slide/lib/chain.js:20:5)
+1575 verbose stack     at lifecycle_ (/usr/share/npm/node_modules/npm-lifecycle/index.js:167:3)
+1575 verbose stack     at /usr/share/npm/node_modules/npm-lifecycle/index.js:104:9
+1575 verbose stack     at /usr/share/npm/node_modules/npm-lifecycle/index.js:218:12
+1575 verbose stack     at callback (/usr/share/nodejs/graceful-fs/polyfills.js:295:20)
+1575 verbose stack     at FSReqWrap.oncomplete (fs.js:154:5)
+1576 verbose cwd /
+1577 verbose Linux 5.3.0-51-generic
+1578 verbose argv "/usr/bin/node" "/usr/bin/npm" "i" "-g" "ganache-cli"
+1579 verbose node v10.19.0
+1580 verbose npm  v6.14.4
+1581 error code MODULE_NOT_FOUND
+1582 error Cannot find module './get-uid-gid.js'
+1583 verbose exit [ 1, true ]
